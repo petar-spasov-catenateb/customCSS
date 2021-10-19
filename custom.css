@@ -1,13 +1,15 @@
 /* fuw */
 
 .fuw,
-.fuw a {
+.fuw a,
+.fuw .text{
     color: #333;
 }
 
 .fuw h1,
 .fuw h2,
-.fuw h3 {
+.fuw h3,
+.fuw .right h2 {
     color: #121212;
 }
 
@@ -34,13 +36,15 @@
 /* schweizer / femina */
 
 .schweizer-femina,
-.schweizer-femina a {
+.schweizer-femina a,
+.schweizer-femina .text{
     color: #333;
 }
 
 .schweizer-femina h1,
 .schweizer-femina h2,
-.schweizer-femina h3 {
+.schweizer-femina h3,
+.schweizer-femina .right h2{
     color: #121212;
 }
 
@@ -66,17 +70,18 @@
 
 /* bilan */
 .bilan,
-.bilan a {
+.bilan a,
+.bilan .text {
     color: #333;
 }
 
 .bilan h1,
 .bilan h2,
-.bilan h3 {
+.bilan h3,
+.bilan .right h2{
     color: #121212;
 }
 
-.bilan .button1,
 .bilan .button1 {
     background: #AA0A0C !important;
     color: #fff;
@@ -97,6 +102,25 @@
     background: #F4F4F4 !important;
 }
 
-.aboshop-holder .background .left {
+.bilan .background .left {
     background: #e9e9e9;
+}
+
+.bilan .background .right {
+	background: #f4f4f4;
+}
+
+.bilan .right .button1 {
+	background: #e4e2db !important;
+    color: #121212 !important;
+}
+
+.bilan .right .button2,
+.bilan .right .button3 {
+    background: #fff !important;
+    color: #121212 !important;
+}
+
+.bilan .right div.button2 {
+	background: transparent !important;
 }
