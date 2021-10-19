@@ -1,5 +1,29 @@
-.fuw .overlay-holder .button1{
+/* FUW */
+
+.fuw .overlay-holder,
+.fuw .overlay-holder a {
+	color: #333;
+}
+
+.fuw .overlay-holder h1,
+.fuw .overlay-holder h2,
+.fuw .overlay-holder h3 {
+	color: #121212;
+}
+
+.fuw .overlay-holder .button1 {
     background: #043785 !important;
 }
 
-.test {}
+.fuw .overlay-holder .button1:hover {
+  	background: #797B90 !important;
+}
+
+.fuw .overlay-holder .button2, .overlay-holder .button3 {
+	background: #e4e2db !important;
+    color: #121212 !important;
+}
+
+.fuw .overlay-holder .button2:hover, .overlay-holder .button3:hover {
+    background: #F4F4F4 !important;
+}
