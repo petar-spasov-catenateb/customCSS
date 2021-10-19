@@ -1,91 +1,102 @@
 /* fuw */
 
-.fuw .overlay-holder,
-.fuw .overlay-holder a {
-	color: #333;
+.fuw,
+.fuw a {
+    color: #333;
 }
 
-.fuw .overlay-holder h1,
-.fuw .overlay-holder h2,
-.fuw .overlay-holder h3 {
-	color: #121212;
+.fuw h1,
+.fuw h2,
+.fuw h3 {
+    color: #121212;
 }
 
-.fuw .overlay-holder .button1 {
+.fuw .button1 {
     background: #043785 !important;
-  	color: #fff;
+    color: #fff;
 }
 
-.fuw .overlay-holder .button1:hover {
-  	background: #797B90 !important;
+.fuw .button1:hover {
+    background: #797B90 !important;
 }
 
-.fuw .overlay-holder .button2, .overlay-holder .button3 {
-	background: #e4e2db !important;
+.fuw .button2,
+.fuw .button3 {
+    background: #e4e2db !important;
     color: #121212 !important;
 }
 
-.fuw .overlay-holder .button2:hover, .overlay-holder .button3:hover {
+.fuw .button2:hover,
+.fuw .button3:hover {
     background: #F4F4F4 !important;
 }
 
 /* schweizer / femina */
 
-.schweizer-femina .overlay-holder,
-.schweizer-femina .overlay-holder a {
-	color: #333;
+.schweizer-femina,
+.schweizer-femina a {
+    color: #333;
 }
 
-.schweizer-femina .overlay-holder h1,
-.schweizer-femina .overlay-holder h2,
-.schweizer-femina .overlay-holder h3 {
-	color: #121212;
+.schweizer-femina h1,
+.schweizer-femina h2,
+.schweizer-femina h3 {
+    color: #121212;
 }
 
-.schweizer-femina .overlay-holder .button1 {
+.schweizer-femina .button1 {
     background: #043785 !important;
-  	color: #fff;
+    color: #fff;
 }
 
-.schweizer-femina .overlay-holder .button1:hover {
-  	background: #797B90 !important;
+.schweizer-femina .button1:hover {
+    background: #797B90 !important;
 }
 
-.schweizer-femina .overlay-holder .button2, .overlay-holder .button3 {
-	background: #e4e2db !important;
+.schweizer-femina .button2,
+.schweizer-femina .button3 {
+    background: #e4e2db !important;
     color: #121212 !important;
 }
 
-.schweizer-femina .overlay-holder .button2:hover, .overlay-holder .button3:hover {
+.schweizer-femina .button2:hover,
+.schweizer-femina .button3:hover {
     background: #F4F4F4 !important;
 }
 
 /* bilan */
-.bilan .overlay-holder,
-.bilan .overlay-holder a {
-	color: #333;
+.bilan,
+.bilan a {
+    color: #333;
 }
 
-.bilan .overlay-holder h1,
-.bilan .overlay-holder h2,
-.bilan .overlay-holder h3 {
-	color: #121212;
+.bilan h1,
+.bilan h2,
+.bilan h3 {
+    color: #121212;
 }
 
-.bilan .overlay-holder .button1 {
+.bilan .button1,
+.bilan .button1 {
     background: #AA0A0C !important;
-  	color: #fff;
+    color: #fff;
 }
 
-.bilan .overlay-holder .button1:hover {
-  	background: #797B90 !important;
+.bilan .button1:hover {
+    background: #797B90 !important;
 }
 
-.bilan .overlay-holder .button2, .overlay-holder .button3 {
-	background: #e4e2db !important;
+.bilan .button2,
+.bilan .button3 {
+    background: #e4e2db !important;
     color: #121212 !important;
 }
 
-.bilan .overlay-holder .button2:hover, .overlay-holder .button3:hover {
+.bilan .button2:hover,
+.bilan .button3:hover {
     background: #F4F4F4 !important;
+}
+
+.aboshop-holder .background .left {
+    background: #e9e9e9;
 }
