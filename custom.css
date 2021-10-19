@@ -1,4 +1,4 @@
-/* FUW */
+/* fuw */
 
 .fuw .overlay-holder,
 .fuw .overlay-holder a {
@@ -13,6 +13,7 @@
 
 .fuw .overlay-holder .button1 {
     background: #043785 !important;
+  	color: #fff;
 }
 
 .fuw .overlay-holder .button1:hover {
@@ -25,5 +26,66 @@
 }
 
 .fuw .overlay-holder .button2:hover, .overlay-holder .button3:hover {
+    background: #F4F4F4 !important;
+}
+
+/* schweizer / femina */
+
+.schweizer-femina .overlay-holder,
+.schweizer-femina .overlay-holder a {
+	color: #333;
+}
+
+.schweizer-femina .overlay-holder h1,
+.schweizer-femina .overlay-holder h2,
+.schweizer-femina .overlay-holder h3 {
+	color: #121212;
+}
+
+.schweizer-femina .overlay-holder .button1 {
+    background: #043785 !important;
+  	color: #fff;
+}
+
+.schweizer-femina .overlay-holder .button1:hover {
+  	background: #797B90 !important;
+}
+
+.schweizer-femina .overlay-holder .button2, .overlay-holder .button3 {
+	background: #e4e2db !important;
+    color: #121212 !important;
+}
+
+.schweizer-femina .overlay-holder .button2:hover, .overlay-holder .button3:hover {
+    background: #F4F4F4 !important;
+}
+
+/* bilan */
+.bilan .overlay-holder,
+.bilan .overlay-holder a {
+	color: #333;
+}
+
+.bilan .overlay-holder h1,
+.bilan .overlay-holder h2,
+.bilan .overlay-holder h3 {
+	color: #121212;
+}
+
+.bilan .overlay-holder .button1 {
+    background: #AA0A0C !important;
+  	color: #fff;
+}
+
+.bilan .overlay-holder .button1:hover {
+  	background: #797B90 !important;
+}
+
+.bilan .overlay-holder .button2, .overlay-holder .button3 {
+	background: #e4e2db !important;
+    color: #121212 !important;
+}
+
+.bilan .overlay-holder .button2:hover, .overlay-holder .button3:hover {
     background: #F4F4F4 !important;
 }
