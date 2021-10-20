@@ -1,15 +1,34 @@
-/* fuw */
-
 .fuw,
 .fuw a,
-.fuw .text{
+.fuw .text,
+.schweizer,
+.schweizer a,
+.schweizer .text,
+.femina,
+.femina a,
+.femina .text,
+.bilan,
+.bilan a,
+.bilan .text {
     color: #333;
 }
 
 .fuw h1,
 .fuw h2,
 .fuw h3,
-.fuw .right h2 {
+.fuw .right h2,
+.schweizer h1,
+.schweizer h2,
+.schweizer h3,
+.schweizer .right h2,
+.femina h1,
+.femina h2,
+.femina h3,
+.femina .right h2,
+.bilan h1,
+.bilan h2,
+.bilan h3,
+.bilan .right h2 {
     color: #121212;
 }
 
@@ -33,101 +52,92 @@
     background: #F4F4F4 !important;
 }
 
-.fuw .background .left {
+.fuw .background .left,
+.schweizer .background .left,
+.femina .background .left,
+.bilan .background .left {
     background: #e9e9e9;
 }
 
-.fuw .background .right {
-	background: #f4f4f4;
+.fuw .background .right,
+.schweizer .background .right,
+.femina .background .right,
+.bilan .background .right {
+    background: #f4f4f4;
 }
 
-.fuw .right .button1 {
-	background: #e4e2db !important;
-    color: #121212 !important;
-}
-
-.fuw .right .button2,
-.fuw .right .button3 {
-    background: #fff !important;
-    color: #121212 !important;
-}
-
-.fuw .right div.button2 {
-	background: transparent !important;
-}
-
-/* schweizer / femina */
-
-.schweizer-femina,
-.schweizer-femina a,
-.schweizer-femina .text{
-    color: #333;
-}
-
-.schweizer-femina h1,
-.schweizer-femina h2,
-.schweizer-femina h3,
-.schweizer-femina .right h2{
-    color: #121212;
-}
-
-.schweizer-femina .button1 {
-    background: #d92128 !important;
-    color: #fff;
-}
-
-.schweizer-femina .button1:hover {
-    background: #797B90 !important;
-}
-
-.schweizer-femina .button2,
-.schweizer-femina .button3 {
+.fuw .right .button1,
+.schweizer .right .button1,
+.femina .right .button1,
+.bilan .right .button1 {
     background: #e4e2db !important;
     color: #121212 !important;
 }
 
-.schweizer-femina .button2:hover,
-.schweizer-femina .button3:hover {
-    background: #F4F4F4 !important;
-}
-
-.schweizer-femina .background .left {
-    background: #e9e9e9;
-}
-
-.schweizer-femina .background .right {
-	background: #f4f4f4;
-}
-
-.schweizer-femina .right .button1 {
-	background: #e4e2db !important;
-    color: #121212 !important;
-}
-
-.schweizer-femina .right .button2,
-.schweizer-femina .right .button3 {
+.fuw .right .button2,
+.fuw .right .button3,
+.schweizer .right .button2,
+.schweizer .right .button3,
+.femina .right .button2,
+.femina .right .button3,
+.bilan .right .button2,
+.bilan .right .button3 {
     background: #fff !important;
     color: #121212 !important;
 }
 
-.schweizer-femina .right div.button2 {
-	background: transparent !important;
+.fuw .right div.button2,
+.schweizer .right div.button2,
+.femina .right div.button2,
+.bilan .right div.button2 {
+    background: transparent !important;
+}
+
+/* schweizer */
+
+.schweizer .button1 {
+    background: #d92128 !important;
+    color: #fff;
+}
+
+.schweizer .button1:hover {
+    background: #797B90 !important;
+}
+
+.schweizer .button2,
+.schweizer .button3 {
+    background: #e4e2db !important;
+    color: #121212 !important;
+}
+
+.schweizer .button2:hover,
+.schweizer .button3:hover {
+    background: #F4F4F4 !important;
+}
+
+/* femina */
+
+.femina .button1 {
+    background: #d92128 !important;
+    color: #fff;
+}
+
+.femina .button1:hover {
+    background: #797B90 !important;
+}
+
+.femina .button2,
+.femina .button3 {
+    background: #e4e2db !important;
+    color: #121212 !important;
+}
+
+.femina .button2:hover,
+.femina .button3:hover {
+    background: #F4F4F4 !important;
 }
 
 /* bilan */
-.bilan,
-.bilan a,
-.bilan .text {
-    color: #333;
-}
-
-.bilan h1,
-.bilan h2,
-.bilan h3,
-.bilan .right h2{
-    color: #121212;
-}
-
 .bilan .button1 {
     background: #AA0A0C !important;
     color: #fff;
@@ -146,27 +156,4 @@
 .bilan .button2:hover,
 .bilan .button3:hover {
     background: #F4F4F4 !important;
-}
-
-.bilan .background .left {
-    background: #e9e9e9;
-}
-
-.bilan .background .right {
-	background: #f4f4f4;
-}
-
-.bilan .right .button1 {
-	background: #e4e2db !important;
-    color: #121212 !important;
-}
-
-.bilan .right .button2,
-.bilan .right .button3 {
-    background: #fff !important;
-    color: #121212 !important;
-}
-
-.bilan .right div.button2 {
-	background: transparent !important;
 }
