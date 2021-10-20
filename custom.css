@@ -1,3 +1,4 @@
+
 .fuw,
 .fuw a,
 .fuw .text,
@@ -32,13 +33,14 @@
     color: #121212;
 }
 
+/* fuw */
 .fuw .button1 {
     background: #043785 !important;
     color: #fff;
 }
 
 .fuw .button1:hover {
-    background: #797B90 !important;
+    background: rgba(4, 55, 133, 0.8) !important;
 }
 
 .fuw .button2,
@@ -49,7 +51,7 @@
 
 .fuw .button2:hover,
 .fuw .button3:hover {
-    background: #F4F4F4 !important;
+    background: rgba(233, 231, 226, 0.8) !important;
 }
 
 .fuw .background .left,
@@ -63,7 +65,7 @@
 .schweizer .background .right,
 .femina .background .right,
 .bilan .background .right {
-    background: #f4f4f4;
+    background: rgba(233, 231, 226, 0.8);
 }
 
 .fuw .right .button1,
@@ -112,7 +114,7 @@
 
 .schweizer .button2:hover,
 .schweizer .button3:hover {
-    background: #F4F4F4 !important;
+    background: rgba(222, 35, 43, 0.8) !important;
 }
 
 /* femina */
@@ -123,7 +125,7 @@
 }
 
 .femina .button1:hover {
-    background: #797B90 !important;
+    background: rgba(217, 33, 40, 0.8) !important;
 }
 
 .femina .button2,
@@ -134,7 +136,7 @@
 
 .femina .button2:hover,
 .femina .button3:hover {
-    background: #F4F4F4 !important;
+    background: rgba(233, 231, 226, 0.8) !important;
 }
 
 /* bilan */
@@ -144,7 +146,7 @@
 }
 
 .bilan .button1:hover {
-    background: #797B90 !important;
+    background: rgba(170, 10, 12, 0.8) !important;
 }
 
 .bilan .button2,
@@ -155,5 +157,5 @@
 
 .bilan .button2:hover,
 .bilan .button3:hover {
-    background: #F4F4F4 !important;
+    background: rgba(233, 231, 226, 0.8) !important;
 }
