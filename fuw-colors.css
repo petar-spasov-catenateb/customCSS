@@ -1,0 +1,26 @@
+/* FUW */
+.fuw .button1,
+.fuw .primary,
+.checkout .complete-purchase:not(.disabled):not(:disabled), 
+.checkout .complete-purchase-button:not(.disabled):not(:disabled) {
+    background: #043785 !important;
+    color: #fff !important;
+}
+
+.fuw .button1:hover,
+.fuw .primary:hover,
+.checkout .complete-purchase:not(.disabled):not(:disabled):hover, 
+.checkout .complete-purchase-button:not(.disabled):not(:disabled):hover {
+    background: rgba(4, 55, 133, 0.8) !important;
+}
+
+.fuw .button2:not(div):hover,
+.fuw .button3:not(div):hover {
+    background: rgba(233, 231, 226, 0.8) !important;
+}
+
+.fuw .bestseller .bestseller-text div {
+    color: #043785 !important;
+}
+
+/* fuw */

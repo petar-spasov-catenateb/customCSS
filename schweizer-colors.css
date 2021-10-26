@@ -1,0 +1,21 @@
+/* SCHWEIZER */
+.schweizer .button1,
+.schweizer .primary,
+.checkout .complete-purchase:not(.disabled):not(:disabled), 
+.checkout .complete-purchase-button:not(.disabled):not(:disabled) {
+    background: #de232b !important;
+    color: #fff !important;
+}
+
+.schweizer .button1:hover,
+.schweizer .primary:hover,
+.checkout .complete-purchase:not(.disabled):not(:disabled):hover, 
+.checkout .complete-purchase-button:not(.disabled):not(:disabled):hover {
+    background: rgba(222, 35, 43, 0.8) !important;
+}
+
+.schweizer .bestseller .bestseller-text div {
+    color: #de232b !important;
+}
+
+/* schweizer */
