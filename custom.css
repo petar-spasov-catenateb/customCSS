@@ -55,22 +55,22 @@
     color: #121212 !important;
 }
 
-.fuw .right .button2,
-.fuw .right .button3,
-.schweizer .right .button2,
-.schweizer .right .button3,
-.femina .right .button2,
-.femina .right .button3,
-.bilan .right .button2,
-.bilan .right .button3 {
+.fuw .right .button2:not(div),
+.fuw .right .button3:not(div),
+.schweizer .right .button2:not(div),
+.schweizer .right .button3:not(div),
+.femina .right .button2:not(div),
+.femina .right .button3:not(div),
+.bilan .right .button2:not(div),
+.bilan .right .button3:not(div) {
     background: #fff !important;
     color: #121212 !important;
 }
 
-.fuw .right div.button2,
-.schweizer .right div.button2,
-.femina .right div.button2,
-.bilan .right div.button2 {
+.fuw .right div.button2:not(div),
+.schweizer .right div.button2:not(div),
+.femina .right div.button2:not(div),
+.bilan .right div.button2:not(div) {
     background: transparent !important;
 }
 
@@ -114,14 +114,14 @@
     background: rgba(4, 55, 133, 0.8) !important;
 }
 
-.fuw .button2,
-.fuw .button3 {
+.fuw .button2:not(div),
+.fuw .button3:not(div) {
     background: #e4e2db !important;
     color: #121212 !important;
 }
 
-.fuw .button2:hover,
-.fuw .button3:hover {
+.fuw .button2:not(div):hover,
+.fuw .button3:not(div):hover {
     background: rgba(233, 231, 226, 0.8) !important;
 }
 
@@ -142,14 +142,14 @@
     background: rgba(222, 35, 43, 0.8) !important;
 }
 
-.schweizer .button2,
-.schweizer .button3 {
+.schweizer .button2:not(div),
+.schweizer .button3:not(div) {
     background: #e4e2db !important;
     color: #121212 !important;
 }
 
-.schweizer .button2:hover,
-.schweizer .button3:hover {
+.schweizer .button2:not(div):hover,
+.schweizer .button3:not(div):hover {
   	background: rgba(233, 231, 226, 0.8) !important;
 }
 
@@ -170,14 +170,14 @@
     background: rgba(217, 33, 40, 0.8) !important;
 }
 
-.femina .button2,
-.femina .button3 {
+.femina .button2:not(div),
+.femina .button3:not(div) {
     background: #e4e2db !important;
     color: #121212 !important;
 }
 
-.femina .button2:hover,
-.femina .button3:hover {
+.femina .button2:not(div):hover,
+.femina .button3:not(div):hover {
     background: rgba(233, 231, 226, 0.8) !important;
 }
 
@@ -198,14 +198,14 @@
     background: rgba(170, 10, 12, 0.8) !important;
 }
 
-.bilan .button2,
-.bilan .button3 {
+.bilan .button2:not(div),
+.bilan .button3:not(div) {
     background: #e4e2db !important;
     color: #121212 !important;
 }
 
-.bilan .button2:hover,
-.bilan .button3:hover {
+.bilan .button2:not(div):hover,
+.bilan .button3:not(div):hover {
     background: rgba(233, 231, 226, 0.8) !important;
 }
 
