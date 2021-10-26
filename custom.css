@@ -104,6 +104,28 @@
     background: #e9e9e9 !important;
 }
 
+.fuw .button2:not(div),
+.fuw .button3:not(div),
+.schweizer .button2:not(div),
+.schweizer .button3:not(div),
+.femina .button2:not(div),
+.femina .button3:not(div),
+.bilan .button2:not(div),
+.bilan .button3:not(div) {
+    background: #e4e2db !important;
+    color: #121212 !important;
+}
+
+.fuw .button2:not(div):hover,
+.fuw .button3:not(div):hover,
+.schweizer .button2:not(div):hover,
+.schweizer .button3:not(div):hover,
+.femina .button2:not(div):hover,
+.femina .button3:not(div):hover,
+.bilan .button2:not(div):hover,
+.bilan .button3:not(div):hover {
+    background: rgba(233, 231, 226, 0.8) !important;
+}
 /* common vertical colors */
 
 /* FUW */
@@ -116,12 +138,6 @@
 .fuw .button1:hover,
 .fuw .primary:hover {
     background: rgba(4, 55, 133, 0.8) !important;
-}
-
-.fuw .button2:not(div),
-.fuw .button3:not(div) {
-    background: #e4e2db !important;
-    color: #121212 !important;
 }
 
 .fuw .button2:not(div):hover,
@@ -147,17 +163,6 @@
     background: rgba(222, 35, 43, 0.8) !important;
 }
 
-.schweizer .button2:not(div),
-.schweizer .button3:not(div) {
-    background: #e4e2db !important;
-    color: #121212 !important;
-}
-
-.schweizer .button2:not(div):hover,
-.schweizer .button3:not(div):hover {
-    background: rgba(233, 231, 226, 0.8) !important;
-}
-
 .schweizer .bestseller .bestseller-text div {
     color: #de232b !important;
 }
@@ -176,17 +181,6 @@
     background: rgba(217, 33, 40, 0.8) !important;
 }
 
-.femina .button2:not(div),
-.femina .button3:not(div) {
-    background: #e4e2db !important;
-    color: #121212 !important;
-}
-
-.femina .button2:not(div):hover,
-.femina .button3:not(div):hover {
-    background: rgba(233, 231, 226, 0.8) !important;
-}
-
 .femina .bestseller .bestseller-text div {
     color: #d92128 !important;
 }
@@ -203,17 +197,6 @@
 .bilan .button1:hover,
 .bilan .primary:hover {
     background: rgba(170, 10, 12, 0.8) !important;
-}
-
-.bilan .button2:not(div),
-.bilan .button3:not(div) {
-    background: #e4e2db !important;
-    color: #121212 !important;
-}
-
-.bilan .button2:not(div):hover,
-.bilan .button3:not(div):hover {
-    background: rgba(233, 231, 226, 0.8) !important;
 }
 
 .femina .bestseller .bestseller-text div {
