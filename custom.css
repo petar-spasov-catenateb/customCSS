@@ -2,15 +2,19 @@
 .fuw,
 .fuw a,
 .fuw .text,
+.fuw .inline-holder,
 .schweizer,
 .schweizer a,
 .schweizer .text,
+.schweizer .inline-holder,
 .femina,
 .femina a,
 .femina .text,
+.femina .inline-holder,
 .bilan,
 .bilan a,
-.bilan .text {
+.bilan .text,
+.bilan .inline-holder {
     color: #333 !important;
 }
 
@@ -82,22 +86,22 @@
 .schweizer .standard .inlay-background,
 .femina .standard .inlay-background,
 .bilan .standard .inlay-background {
-	background: #f4f4f4 !important;
+    background: #f4f4f4 !important;
 }
 
-.fuw .bestseller .offer, 
-.fuw .bestseller-bottom .offer, 
+.fuw .bestseller .offer,
+.fuw .bestseller-bottom .offer,
 .fuw .offers-holder.all-yellow .offer,
-.schweizer .bestseller .offer, 
-.schweizer .bestseller-bottom .offer, 
+.schweizer .bestseller .offer,
+.schweizer .bestseller-bottom .offer,
 .schweizer .offers-holder.all-yellow .offer,
-.femina .bestseller .offer, 
-.femina .bestseller-bottom .offer, 
+.femina .bestseller .offer,
+.femina .bestseller-bottom .offer,
 .femina .offers-holder.all-yellow .offer,
-.bilan .bestseller .offer, 
-.bilan .bestseller-bottom .offer, 
+.bilan .bestseller .offer,
+.bilan .bestseller-bottom .offer,
 .bilan .offers-holder.all-yellow .offer {
-	background: #e9e9e9 !important;
+    background: #e9e9e9 !important;
 }
 
 /* common vertical colors */
@@ -128,6 +132,7 @@
 .fuw .bestseller .bestseller-text div {
     color: #043785 !important;
 }
+
 /* fuw */
 
 /* SCHWEIZER */
@@ -150,12 +155,13 @@
 
 .schweizer .button2:not(div):hover,
 .schweizer .button3:not(div):hover {
-  	background: rgba(233, 231, 226, 0.8) !important;
+    background: rgba(233, 231, 226, 0.8) !important;
 }
 
 .schweizer .bestseller .bestseller-text div {
     color: #de232b !important;
 }
+
 /* schweizer */
 
 /* FEMINA */
@@ -184,6 +190,7 @@
 .femina .bestseller .bestseller-text div {
     color: #d92128 !important;
 }
+
 /* femina */
 
 /* BILAN */
@@ -212,4 +219,5 @@
 .femina .bestseller .bestseller-text div {
     color: #AA0A0C !important;
 }
+
 /* bilan */
