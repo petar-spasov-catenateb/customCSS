@@ -14,7 +14,23 @@
 .bilan,
 .bilan a,
 .bilan .text,
-.bilan .inline-holder {
+.bilan .inline-holder,
+.checkout,
+.checkout .account-head .benefits,
+.checkout .term-details, 
+.checkout .term-details t,
+.checkout .tariff-plan-cell,
+.checkout h4,
+.checkout .billing-country .tp-dropdown__item-color.blue,
+.checkout .add-credit-card, 
+.checkout .go-back-to-cards, 
+.checkout a.button.promo-code-apply,
+.checkout button.button.promo-code-apply,
+.checkout .custom-checkbox label,
+.checkout .consents .custom-checkbox label a,
+.checkout .consents .custom-checkbox label a:visited,
+.checkout .receipt .content, 
+.checkout .view-alreadyHasAccess .content {
     color: #333 !important;
 }
 
@@ -33,7 +49,10 @@
 .bilan h1,
 .bilan h2,
 .bilan h3,
-.bilan .right h2 {
+.bilan .right h2,
+.checkout .account-head-contentcol h1,
+.checkout .receipt h1,
+.checkout .view-alreadyHasAccess h1{
     color: #121212 !important;
 }
 
@@ -85,7 +104,9 @@
 .fuw .standard .inlay-background,
 .schweizer .standard .inlay-background,
 .femina .standard .inlay-background,
-.bilan .standard .inlay-background {
+.bilan .standard .inlay-background,
+.checkout .account-head,
+.checkout .view.view-confirmation .footer-modal {
     background: #f4f4f4 !important;
 }
 
@@ -126,6 +147,22 @@
 .bilan .button3:not(div):hover {
     background: rgba(233, 231, 226, 0.8) !important;
 }
+
+.checkout .promo-code-component input {
+	border-bottom: 1px solid #7d7d7d !important;
+}
+
+.checkout .custom-checkbox label:before,
+.checkout .custom-radio-button label,
+.checkout .custom-radio-button.with-text label:after {
+	border: 2px solid #333333;
+}
+
+.checkout .custom-checkbox input:checked+label:before,
+.checkout .custom-radio-button input:checked+label:before {
+	background: #333333;
+}
+
 /* common vertical colors */
 
 /* FUW */
