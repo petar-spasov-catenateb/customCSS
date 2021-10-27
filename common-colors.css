@@ -26,11 +26,32 @@
 .checkout .go-back-to-cards, 
 .checkout a.button.promo-code-apply,
 .checkout button.button.promo-code-apply,
-.checkout .custom-checkbox label,
+.custom-checkbox label,
 .checkout .consents .custom-checkbox label a,
 .checkout .consents .custom-checkbox label a:visited,
 .checkout .receipt .content, 
-.checkout .view-alreadyHasAccess .content {
+.checkout .view-alreadyHasAccess .content,
+#piano-myaccount,
+#piano-myaccount .btn-group>.btn, 
+#piano-myaccount .btn-group>.dropdown-menu, 
+#piano-myaccount .btn-group>.popover,
+#piano-myaccount .change-option-description, 
+#piano-myaccount ul.simple-list>li.simple-list__item--with-dot, 
+#piano-myaccount ul.simple-list>li.simple-list__item, 
+.update-payment-method .payment_info,
+.vanilla-table tr>td .resource-title, 
+.vanilla-table tr>td .transaction-date,
+.expiration-warning,
+.btn.underline, 
+.vanilla-table button,
+.info-icon-holder,
+.voucher-last-message-sent-date,
+.voucher-details,
+.supporting .support-caption,
+my-account-licensing, 
+my-account-licensing *,
+.pn-licensing__dropdown-item-button, 
+.pn-list .pn-list-scopes .dropdown-menu li {
     color: #333 !important;
 }
 
@@ -52,7 +73,19 @@
 .bilan .right h2,
 .checkout .account-head-contentcol h1,
 .checkout .receipt h1,
-.checkout .view-alreadyHasAccess h1{
+.checkout .view-alreadyHasAccess h1,
+#piano-myaccount h1,
+#piano-myaccount h2,
+#piano-myaccount h3,
+#piano-myaccount .header-navigation-tabs li a,
+#piano-myaccount .item-name,
+#piano-myaccount .manage-dropdown li,
+#piano-myaccount .section-text,
+#piano-myaccount .change-option-title,
+.modal h3,
+.modal .close i,
+.vanilla-table tr>th,
+.voucher-name {
     color: #121212 !important;
 }
 
@@ -152,15 +185,19 @@
 	border-bottom: 1px solid #7d7d7d !important;
 }
 
-.checkout .custom-checkbox label:before,
-.checkout .custom-radio-button label,
-.checkout .custom-radio-button.with-text label:after {
+.custom-checkbox label:before,
+.custom-radio-button label,
+.custom-radio-button.with-text label:after {
 	border: 2px solid #333333;
 }
 
-.checkout .custom-checkbox input:checked+label:before,
-.checkout .custom-radio-button input:checked+label:before {
+.custom-checkbox input:checked+label:before,
+.custom-radio-button input:checked+label:before {
 	background: #333333;
+}
+
+#piano-myaccount .header-navigation-tabs li.active a {
+    border-bottom: 3px solid #121212;
 }
 
 /* common vertical colors */
