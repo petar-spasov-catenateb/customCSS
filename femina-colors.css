@@ -1,16 +1,20 @@
 /* FEMINA */
 .femina .button1,
 .femina .primary,
-.checkout .complete-purchase:not(.disabled):not(:disabled), 
-.checkout .complete-purchase-button:not(.disabled):not(:disabled) {
+.checkout .complete-purchase:not(.disabled):not(:disabled),
+.checkout .complete-purchase-button:not(.disabled):not(:disabled),
+.checkout .complete-purchase:not(.disabled):not(:disabled) a,
+.checkout .complete-purchase-button:not(.disabled):not(:disabled) a {
     background: #d92128 !important;
     color: #fff !important;
 }
 
 .femina .button1:hover,
 .femina .primary:hover,
-.checkout .complete-purchase:not(.disabled):not(:disabled):hover, 
-.checkout .complete-purchase-button:not(.disabled):not(:disabled):hover {
+.checkout .complete-purchase:not(.disabled):not(:disabled):hover,
+.checkout .complete-purchase-button:not(.disabled):not(:disabled):hover,
+.checkout .complete-purchase:not(.disabled):not(:disabled) a:hover, 
+.checkout .complete-purchase-button:not(.disabled):not(:disabled) a:hover  {
     background: rgba(217, 33, 40, 0.8) !important;
 }
 
