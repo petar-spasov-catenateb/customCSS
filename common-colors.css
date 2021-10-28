@@ -51,7 +51,8 @@
 my-account-licensing, 
 my-account-licensing *,
 .pn-licensing__dropdown-item-button, 
-.pn-list .pn-list-scopes .dropdown-menu li {
+.pn-list .pn-list-scopes .dropdown-menu li,
+.btn.btn-back {
     color: #333 !important;
 }
 
@@ -165,7 +166,8 @@ my-account-licensing *,
 .femina .button2:not(div),
 .femina .button3:not(div),
 .bilan .button2:not(div),
-.bilan .button3:not(div) {
+.bilan .button3:not(div),
+.btn--large.btn--gray {
     background: #e4e2db !important;
     color: #121212 !important;
 }
@@ -177,7 +179,8 @@ my-account-licensing *,
 .femina .button2:not(div):hover,
 .femina .button3:not(div):hover,
 .bilan .button2:not(div):hover,
-.bilan .button3:not(div):hover {
+.bilan .button3:not(div):hover,
+.btn--large.btn--gray:hover {
     background: rgba(233, 231, 226, 0.8) !important;
 }
 
@@ -187,12 +190,14 @@ my-account-licensing *,
 
 .custom-checkbox label:before,
 .custom-radio-button label,
-.custom-radio-button.with-text label:after {
+.custom-radio-button.with-text label:after,
+.radiobutton input:checked+.radiobutton__label::before {
 	border: 2px solid #333333;
 }
 
 .custom-checkbox input:checked+label:before,
-.custom-radio-button input:checked+label:before {
+.custom-radio-button input:checked+label:before,
+.radiobutton__label::after {
 	background: #333333;
 }
 

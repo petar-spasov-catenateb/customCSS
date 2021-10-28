@@ -4,7 +4,8 @@
 .checkout .complete-purchase:not(.disabled):not(:disabled), 
 .checkout .complete-purchase-button:not(.disabled):not(:disabled),
 .checkout .complete-purchase:not(.disabled):not(:disabled) a, 
-.checkout .complete-purchase-button:not(.disabled):not(:disabled) a {
+.checkout .complete-purchase-button:not(.disabled):not(:disabled) a,
+.btn--large.btn--blue {
     background: #043785 !important;
     color: #fff !important;
 }
@@ -14,13 +15,9 @@
 .checkout .complete-purchase:not(.disabled):not(:disabled):hover, 
 .checkout .complete-purchase-button:not(.disabled):not(:disabled):hover,
 .checkout .complete-purchase:not(.disabled):not(:disabled) a:hover, 
-.checkout .complete-purchase-button:not(.disabled):not(:disabled) a:hover {
+.checkout .complete-purchase-button:not(.disabled):not(:disabled) a:hover,
+.btn--large.btn--blue:hover {
     background: rgba(4, 55, 133, 0.8) !important;
-}
-
-.fuw .button2:not(div):hover,
-.fuw .button3:not(div):hover {
-    background: rgba(233, 231, 226, 0.8) !important;
 }
 
 .fuw .bestseller .bestseller-text div {
