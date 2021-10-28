@@ -17,40 +17,40 @@
 .bilan .inline-holder,
 .checkout,
 .checkout .account-head .benefits,
-.checkout .term-details, 
+.checkout .term-details,
 .checkout .term-details t,
 .checkout .tariff-plan-cell,
 .checkout h4,
 .checkout .billing-country .tp-dropdown__item-color.blue,
-.checkout .add-credit-card, 
-.checkout .go-back-to-cards, 
+.checkout .add-credit-card,
+.checkout .go-back-to-cards,
 .checkout a.button.promo-code-apply,
 .checkout button.button.promo-code-apply,
 .custom-checkbox label,
 .checkout .consents .custom-checkbox label a,
 .checkout .consents .custom-checkbox label a:visited,
-.checkout .receipt .content, 
+.checkout .receipt .content,
 .checkout .view-alreadyHasAccess .content,
 #piano-myaccount,
-#piano-myaccount .btn-group>.btn, 
-#piano-myaccount .btn-group>.dropdown-menu, 
+#piano-myaccount .btn-group>.btn,
+#piano-myaccount .btn-group>.dropdown-menu,
 #piano-myaccount .btn-group>.popover,
-#piano-myaccount .change-option-description, 
-#piano-myaccount ul.simple-list>li.simple-list__item--with-dot, 
-#piano-myaccount ul.simple-list>li.simple-list__item, 
+#piano-myaccount .change-option-description,
+#piano-myaccount ul.simple-list>li.simple-list__item--with-dot,
+#piano-myaccount ul.simple-list>li.simple-list__item,
 .update-payment-method .payment_info,
-.vanilla-table tr>td .resource-title, 
+.vanilla-table tr>td .resource-title,
 .vanilla-table tr>td .transaction-date,
 .expiration-warning,
-.btn.underline, 
+.btn.underline,
 .vanilla-table button,
 .info-icon-holder,
 .voucher-last-message-sent-date,
 .voucher-details,
 .supporting .support-caption,
-my-account-licensing, 
+my-account-licensing,
 my-account-licensing *,
-.pn-licensing__dropdown-item-button, 
+.pn-licensing__dropdown-item-button,
 .pn-list .pn-list-scopes .dropdown-menu li,
 .btn.btn-back {
     color: #333 !important;
@@ -101,7 +101,7 @@ my-account-licensing *,
 .schweizer .background .right,
 .femina .background .right,
 .bilan .background .right {
-    background: rgba(233, 231, 226, 0.8) !important;
+    background: #f4f4f4 !important;
 }
 
 .fuw .right .button1,
@@ -185,24 +185,41 @@ my-account-licensing *,
 }
 
 .checkout .promo-code-component input {
-	border-bottom: 1px solid #7d7d7d !important;
+    border-bottom: 1px solid #7d7d7d !important;
 }
 
 .custom-checkbox label:before,
 .custom-radio-button label,
 .custom-radio-button.with-text label:after,
 .radiobutton input:checked+.radiobutton__label::before {
-	border: 2px solid #333333;
+    border: 2px solid #333333;
 }
 
 .custom-checkbox input:checked+label:before,
 .custom-radio-button input:checked+label:before,
 .radiobutton__label::after {
-	background: #333333;
+    background: #333333;
 }
 
 #piano-myaccount .header-navigation-tabs li.active a {
     border-bottom: 3px solid #121212;
+}
+
+@media screen and (max-width: 712px) {
+
+    .fuw .aboshop-holder .content .left,
+    .schweizer .aboshop-holder .content .left,
+    .femina .aboshop-holder .content .left,
+    .bilan .aboshop-holder .content .left {
+        background: #e9e9e9 !important;
+    }
+
+    .fuw .aboshop-holder .content .right,
+    .schweizer .aboshop-holder .content .right,
+    .femina .aboshop-holder .content .right,
+    .bilan .aboshop-holder .content .right {
+        background: #f4f4f4 !important;
+    }
 }
 
 /* common vertical colors */
