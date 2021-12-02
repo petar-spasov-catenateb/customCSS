@@ -20,13 +20,13 @@
 .darkmode .checkout .consents .custom-checkbox label a:visited,
 .darkmode .checkout .receipt .content,
 .darkmode .checkout .view-alreadyHasAccess .content,
-.darkmode #piano-myaccount,
-.darkmode #piano-myaccount .btn-group>.btn,
-.darkmode #piano-myaccount .btn-group>.dropdown-menu,
-.darkmode #piano-myaccount .btn-group>.popover,
-.darkmode #piano-myaccount .change-option-description,
-.darkmode #piano-myaccount ul.simple-list>li.simple-list__item--with-dot,
-.darkmode #piano-myaccount ul.simple-list>li.simple-list__item,
+.darkmode#piano-myaccount,
+.darkmode#piano-myaccount .btn-group>.btn,
+.darkmode#piano-myaccount .btn-group>.dropdown-menu,
+.darkmode#piano-myaccount .btn-group>.popover,
+.darkmode#piano-myaccount .change-option-description,
+.darkmode#piano-myaccount ul.simple-list>li.simple-list__item--with-dot,
+.darkmode#piano-myaccount ul.simple-list>li.simple-list__item,
 .darkmode .update-payment-method .payment_info,
 .darkmode .vanilla-table tr>td .resource-title,
 .darkmode .vanilla-table tr>td .transaction-date,
@@ -45,7 +45,7 @@
     color: #e9e9e9 !important;
 }
 
-.darkmode #piano-myaccount  {
+.darkmode#piano-myaccount  {
     background: #121212;    
 }
 
@@ -56,14 +56,14 @@
 .darkmode .checkout .account-head-contentcol h1,
 .darkmode .checkout .receipt h1,
 .darkmode .checkout .view-alreadyHasAccess h1,
-.darkmode #piano-myaccount h1,
-.darkmode #piano-myaccount h2,
-.darkmode #piano-myaccount h3,
-.darkmode #piano-myaccount .header-navigation-tabs li a,
-.darkmode #piano-myaccount .item-name,
-.darkmode #piano-myaccount .manage-dropdown li,
-.darkmode #piano-myaccount .section-text,
-.darkmode #piano-myaccount .change-option-title,
+.darkmode#piano-myaccount h1,
+.darkmode#piano-myaccount h2,
+.darkmode#piano-myaccount h3,
+.darkmode#piano-myaccount .header-navigation-tabs li a,
+.darkmode#piano-myaccount .item-name,
+.darkmode#piano-myaccount .manage-dropdown li,
+.darkmode#piano-myaccount .section-text,
+.darkmode#piano-myaccount .change-option-title,
 .darkmode .modal h3,
 .darkmode .modal .close i,
 .darkmode .vanilla-table tr>th,
@@ -137,7 +137,7 @@
     background: #333333;
 }
 
-.darkmode .darkmode #piano-myaccount .header-navigation-tabs li.active a {
+.darkmode#piano-myaccount .header-navigation-tabs li.active a {
     border-bottom: 3px solid #e9e9e9;
 }
 
