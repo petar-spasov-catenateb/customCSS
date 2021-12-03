@@ -5,21 +5,21 @@
 .darkmode .inline-holder,
 .darkmode .overlay-holder,
 .darkmode .checkout,
-.darkmode .checkout .account-head .benefits,
-.darkmode .checkout .term-details,
-.darkmode .checkout .term-details t,
-.darkmode .checkout .tariff-plan-cell,
-.darkmode .checkout h4,
-.darkmode .checkout .billing-country .tp-dropdown__item-color.blue,
-.darkmode .checkout .add-credit-card,
-.darkmode .checkout .go-back-to-cards,
-.darkmode .checkout a.button.promo-code-apply,
-.darkmode .checkout button.button.promo-code-apply,
+.checkout .darkmode .account-head .benefits,
+.checkout .darkmode .term-details,
+.checkout .darkmode .term-details t,
+.checkout .darkmode .tariff-plan-cell,
+.checkout .darkmode h4,
+.checkout .darkmode .billing-country .tp-dropdown__item-color.blue,
+.checkout .darkmode .add-credit-card,
+.checkout .darkmode .go-back-to-cards,
+.checkout .darkmode a.button.promo-code-apply,
+.checkout .darkmode button.button.promo-code-apply,
 .darkmode .custom-checkbox label,
-.darkmode .checkout .consents .custom-checkbox label a,
-.darkmode .checkout .consents .custom-checkbox label a:visited,
-.darkmode .checkout .receipt .content,
-.darkmode .checkout .view-alreadyHasAccess .content,
+.checkout .darkmode .consents .custom-checkbox label a,
+.checkout .darkmode .consents .custom-checkbox label a:visited,
+.checkout .darkmode .receipt .content,
+.checkout .darkmode .view-alreadyHasAccess .content,
 .darkmode#piano-myaccount,
 .darkmode#piano-myaccount .btn-group>.btn,
 .darkmode#piano-myaccount .btn-group>.dropdown-menu,
@@ -53,9 +53,9 @@
 .darkmode h2,
 .darkmode h3,
 .darkmode .right h2,
-.darkmode .checkout .account-head-contentcol h1,
-.darkmode .checkout .receipt h1,
-.darkmode .checkout .view-alreadyHasAccess h1,
+.checkout .darkmode .account-head-contentcol h1,
+.checkout .darkmode .receipt h1,
+.checkout .darkmode .view-alreadyHasAccess h1,
 .darkmode#piano-myaccount h1,
 .darkmode#piano-myaccount h2,
 .darkmode#piano-myaccount h3,
@@ -96,8 +96,8 @@
 
 .darkmode .offer,
 .darkmode .standard .inlay-background,
-.darkmode .checkout .account-head,
-.darkmode .checkout .view.view-confirmation .footer-modal {
+.checkout .darkmode .account-head,
+.checkout .darkmode .view.view-confirmation .footer-modal {
     background: #f4f4f4 !important;
 }
 
@@ -120,7 +120,7 @@
     background: rgba(233, 231, 226, 0.8) !important;
 }
 
-.darkmode .checkout .promo-code-component input {
+.checkout .darkmode .promo-code-component input {
     border-bottom: 1px solid #7d7d7d !important;
 }
 
