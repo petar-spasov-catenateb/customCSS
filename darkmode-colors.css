@@ -45,8 +45,9 @@
     color: #e9e9e9 !important;
 }
 
-.darkmode#piano-myaccount  {
-    background: #121212;    
+.darkmode#piano-myaccount,
+.darkmode .inline-holder {
+    background: #121212;
 }
 
 .darkmode h1,
@@ -110,14 +111,14 @@
 .darkmode .button2:not(div),
 .darkmode .button3:not(div),
 .darkmode .btn--large.btn--gray {
-    background: #e4e2db !important;
-    color: #121212 !important;
+    background: #6f7187 !important;
+    color: #fff !important;
 }
 
 .darkmode .button2:not(div):hover,
 .darkmode .button3:not(div):hover,
 .darkmode .btn--large.btn--gray:hover {
-    background: rgba(233, 231, 226, 0.8) !important;
+    background: #474A66 !important;
 }
 
 .checkout .darkmode .promo-code-component input {
@@ -139,6 +140,42 @@
 
 .darkmode#piano-myaccount .header-navigation-tabs li.active a {
     border-bottom: 3px solid #e9e9e9;
+}
+
+.darkmode .btn.disabled,
+.darkmode .btn.disabled:active,
+.darkmode .btn.disabled:hover,
+.darkmode .btn[disabled],
+.darkmode .btn[disabled]:active,
+.darkmode .btn[disabled]:hover {
+    opacity: 1 !important;
+    background: #555555 !important;
+    color: #d4d4d0 !important;
+}
+
+.darkmode .button1,
+.darkmode .primary,
+.checkout .darkmode .complete-purchase:not(.disabled):not(:disabled),
+.checkout .darkmode .complete-purchase-button:not(.disabled):not(:disabled),
+.checkout .darkmode .complete-purchase:not(.disabled):not(:disabled) a,
+.checkout .darkmode .complete-purchase-button:not(.disabled):not(:disabled) a,
+.darkmode .btn--large.btn--blue {
+    background: #ffe462 !important;
+    color: #202346 !important;
+}
+
+.darkmode .button1:hover,
+.darkmode .primary:hover,
+.checkout .darkmode .complete-purchase:not(.disabled):not(:disabled):hover,
+.checkout .darkmode .complete-purchase-button:not(.disabled):not(:disabled):hover,
+.checkout .darkmode .complete-purchase:not(.disabled):not(:disabled) a:hover,
+.checkout .darkmode .complete-purchase-button:not(.disabled):not(:disabled) a:hover,
+.btn--large.btn--blue:hover {
+    background: #FFF2B7 !important;
+}
+
+.darkmode .bestseller .bestseller-text div {
+    color: #fff !important;
 }
 
 /* dark mode colors */

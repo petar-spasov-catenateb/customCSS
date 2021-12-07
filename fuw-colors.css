@@ -24,4 +24,22 @@
     color: #043785 !important;
 }
 
+/* DARKMODE */
+
+.fuw.darkmode .button1,
+.fuw.darkmode .primary,
+.checkout .darkmode .complete-purchase:not(.disabled):not(:disabled), 
+.checkout .darkmode .complete-purchase-button:not(.disabled):not(:disabled),
+.checkout .darkmode .complete-purchase:not(.disabled):not(:disabled) a, 
+.checkout .darkmode .complete-purchase-button:not(.disabled):not(:disabled) a,
+.darkmode .btn--large.btn--blue {
+    background: #0759D5 !important;
+}
+
+.fuw.darkmode .bestseller .bestseller-text div {
+    color: #0759D5 !important;
+}
+
+/* darkmode */
+
 /* fuw */

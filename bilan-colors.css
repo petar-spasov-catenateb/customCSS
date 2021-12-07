@@ -20,8 +20,27 @@
     background: rgba(170, 10, 12, 0.8) !important;
 }
 
-.femina .bestseller .bestseller-text div {
+.bilan .bestseller .bestseller-text div {
     color: #AA0A0C !important;
 }
+
+/* DARKMODE */
+
+.bilan.darkmode .button1,
+.bilan.darkmode .primary,
+.checkout .darkmode .complete-purchase:not(.disabled):not(:disabled),
+.checkout .darkmode .complete-purchase-button:not(.disabled):not(:disabled),
+.checkout .darkmode .complete-purchase:not(.disabled):not(:disabled) a,
+.checkout .darkmode .complete-purchase-button:not(.disabled):not(:disabled) a,
+.darkmode .btn--large.btn--blue {
+    background: #C32225 !important;
+}
+
+
+.bilan.darkmode .bestseller .bestseller-text div {
+    color: #C32225 !important;
+}
+
+/* darkmode */
 
 /* bilan */
