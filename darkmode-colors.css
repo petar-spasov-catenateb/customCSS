@@ -46,7 +46,9 @@
 }
 
 .darkmode#piano-myaccount,
-.darkmode .inline-holder {
+.darkmode#piano-checkout,
+.darkmode .inline-holder,
+.footer-modal {
     background: #121212;
 }
 
@@ -99,7 +101,7 @@
 .darkmode .standard .inlay-background,
 .checkout .darkmode .account-head,
 .checkout .darkmode .view.view-confirmation .footer-modal {
-    background: #f4f4f4 !important;
+    background: #555555 !important;
 }
 
 .darkmode .bestseller .offer,
