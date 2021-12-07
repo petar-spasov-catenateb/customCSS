@@ -178,4 +178,17 @@
     color: #fff !important;
 }
 
+.darkmode .inline-holder .info-icon-holder .info-text .info-text-inner {
+    background: #202346;
+    color: #fff;
+}
+
+.dark-mode .inline-holder .info-text {
+    color: #202346;
+}
+
+.shadow .darkmode .inline-holder {
+    box-shadow: 0 0 15px 0 #7D7D7D;
+}
+
 /* dark mode colors */
