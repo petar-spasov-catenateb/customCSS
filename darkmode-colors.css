@@ -48,7 +48,8 @@
 .darkmode#piano-myaccount,
 .darkmode#piano-checkout,
 .darkmode .inline-holder,
-.footer-modal {
+.footer-modal,
+.darkmode .overlay-holder {
     background: #121212;
 }
 
