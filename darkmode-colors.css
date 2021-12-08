@@ -194,4 +194,36 @@
     box-shadow: 0 0 15px 0 #7D7D7D;
 }
 
+/* DARKMODE VERTICALS */
+
+.fuw .right .button2:not(div),
+.fuw .right .button3:not(div),
+.schweizer .right .button2:not(div),
+.schweizer .right .button3:not(div),
+.femina .right .button2:not(div),
+.femina .right .button3:not(div),
+.bilan .right .button2:not(div),
+.bilan .right .button3:not(div) {
+    background: #aba9a4!important;
+    color: #121212 !important;
+}
+
+.fuw .button2:not(div):hover,
+.fuw .button3:not(div):hover,
+.fuw .btn--large.btn--gray:hover 
+.schweizer .button2:not(div):hover,
+.schweizer .button3:not(div):hover,
+.schweizer .btn--large.btn--gray:hover 
+.femina .button2:not(div):hover,
+.femina .button3:not(div):hover,
+.femina .btn--large.btn--gray:hover 
+.bilan .button2:not(div):hover,
+.bilan .button3:not(div):hover,
+.bilan .btn--large.btn--gray:hover {
+    background: #9d9b97 !important;
+}
+
+
+/* darkmode verticals */
+
 /* dark mode colors */
