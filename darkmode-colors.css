@@ -199,9 +199,9 @@
 .fuw.darkmode .button2:not(div),
 .fuw.darkmode .button3:not(div),
 .fuw.darkmode .btn--large.btn--gray
-.schweizer.darkmode .button2:not(div),
-.schweizer.darkmode .button3:not(div),
-.schweizer.darkmode .btn--large.btn--gray
+.sf.darkmode .button2:not(div),
+.sf.darkmode .button3:not(div),
+.sf.darkmode .btn--large.btn--gray
 .femina.darkmode .button2:not(div),
 .femina.darkmode .button3:not(div),
 .femina.darkmode .btn--large.btn--gray
@@ -215,9 +215,9 @@
 .fuw.darkmode .button2:not(div):hover,
 .fuw.darkmode .button3:not(div):hover,
 .fuw.darkmode .btn--large.btn--gray:hover 
-.schweizer.darkmode .button2:not(div):hover,
-.schweizer.darkmode .button3:not(div):hover,
-.schweizer.darkmode .btn--large.btn--gray:hover 
+.sf.darkmode .button2:not(div):hover,
+.sf.darkmode .button3:not(div):hover,
+.sf.darkmode .btn--large.btn--gray:hover 
 .femina.darkmode .button2:not(div):hover,
 .femina.darkmode .button3:not(div):hover,
 .femina.darkmode .btn--large.btn--gray:hover 

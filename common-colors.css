@@ -4,11 +4,11 @@
 .fuw .text,
 .fuw .inline-holder,
 .fuw .overlay-holder,
-.schweizer,
-.schweizer a,
-.schweizer .text,
-.schweizer .inline-holder,
-.schweizer .overlay-holder,
+.sf,
+.sf a,
+.sf .text,
+.sf .inline-holder,
+.sf .overlay-holder,
 .femina,
 .femina a,
 .femina .text,
@@ -64,10 +64,10 @@ my-account-licensing *,
 .fuw h2,
 .fuw h3,
 .fuw .right h2,
-.schweizer h1,
-.schweizer h2,
-.schweizer h3,
-.schweizer .right h2,
+.sf h1,
+.sf h2,
+.sf h3,
+.sf .right h2,
 .femina h1,
 .femina h2,
 .femina h3,
@@ -95,21 +95,21 @@ my-account-licensing *,
 }
 
 .fuw .background .left,
-.schweizer .background .left,
+.sf .background .left,
 .femina .background .left,
 .bilan .background .left {
     background: #e9e9e9 !important;
 }
 
 .fuw .background .right,
-.schweizer .background .right,
+.sf .background .right,
 .femina .background .right,
 .bilan .background .right {
     background: #f4f4f4 !important;
 }
 
 .fuw .right .button1,
-.schweizer .right .button1,
+.sf .right .button1,
 .femina .right .button1,
 .bilan .right .button1 {
     background: #e4e2db !important;
@@ -118,8 +118,8 @@ my-account-licensing *,
 
 .fuw .right .button2:not(div),
 .fuw .right .button3:not(div),
-.schweizer .right .button2:not(div),
-.schweizer .right .button3:not(div),
+.sf .right .button2:not(div),
+.sf .right .button3:not(div),
 .femina .right .button2:not(div),
 .femina .right .button3:not(div),
 .bilan .right .button2:not(div),
@@ -129,18 +129,18 @@ my-account-licensing *,
 }
 
 .fuw .right div.button2:not(div),
-.schweizer .right div.button2:not(div),
+.sf .right div.button2:not(div),
 .femina .right div.button2:not(div),
 .bilan .right div.button2:not(div) {
     background: transparent !important;
 }
 
 .fuw .offer,
-.schweizer .offer,
+.sf .offer,
 .femina .offer,
 .bilan .offer,
 .fuw .standard .inlay-background,
-.schweizer .standard .inlay-background,
+.sf .standard .inlay-background,
 .femina .standard .inlay-background,
 .bilan .standard .inlay-background,
 .checkout .account-head,
@@ -151,9 +151,9 @@ my-account-licensing *,
 .fuw .bestseller .offer,
 .fuw .bestseller-bottom .offer,
 .fuw .offers-holder.all-yellow .offer,
-.schweizer .bestseller .offer,
-.schweizer .bestseller-bottom .offer,
-.schweizer .offers-holder.all-yellow .offer,
+.sf .bestseller .offer,
+.sf .bestseller-bottom .offer,
+.sf .offers-holder.all-yellow .offer,
 .femina .bestseller .offer,
 .femina .bestseller-bottom .offer,
 .femina .offers-holder.all-yellow .offer,
@@ -165,8 +165,8 @@ my-account-licensing *,
 
 .fuw .button2:not(div),
 .fuw .button3:not(div),
-.schweizer .button2:not(div),
-.schweizer .button3:not(div),
+.sf .button2:not(div),
+.sf .button3:not(div),
 .femina .button2:not(div),
 .femina .button3:not(div),
 .bilan .button2:not(div),
@@ -178,8 +178,8 @@ my-account-licensing *,
 
 .fuw .button2:not(div):hover,
 .fuw .button3:not(div):hover,
-.schweizer .button2:not(div):hover,
-.schweizer .button3:not(div):hover,
+.sf .button2:not(div):hover,
+.sf .button3:not(div):hover,
 .femina .button2:not(div):hover,
 .femina .button3:not(div):hover,
 .bilan .button2:not(div):hover,
@@ -212,18 +212,18 @@ my-account-licensing *,
 @media screen and (max-width: 712px) {
 
     .fuw .aboshop-holder .content .left,
-    .schweizer .aboshop-holder .content .left,
+    .sf .aboshop-holder .content .left,
     .femina .aboshop-holder .content .left,
     .bilan .aboshop-holder .content .left,
     .fuw .aboshop-holder h1,
-    .schweizer .aboshop-holder h1,
+    .sf .aboshop-holder h1,
     .femina .aboshop-holder h1,
     .bilan .aboshop-holder h1 {
         background: #e9e9e9 !important;
     }
 
     .fuw .aboshop-holder .content .right,
-    .schweizer .aboshop-holder .content .right,
+    .sf .aboshop-holder .content .right,
     .femina .aboshop-holder .content .right,
     .bilan .aboshop-holder .content .right {
         background: #f4f4f4 !important;
