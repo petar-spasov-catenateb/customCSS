@@ -230,4 +230,26 @@
 
 /* darkmode verticals */
 
+@media screen and (max-width: 712px) {
+
+    .fuw.darkmode .aboshop-holder .content .left,
+    .sf.darkmode .aboshop-holder .content .left,
+    .femina.darkmode .aboshop-holder .content .left,
+    .bilan.darkmode .aboshop-holder .content .left,
+    .fuw.darkmode .aboshop-holder h1,
+    .sf.darkmode .aboshop-holder h1,
+    .femina.darkmode .aboshop-holder h1,
+    .bilan.darkmode .aboshop-holder h1 {
+        background: #121212 !important;
+    }
+
+    .fuw.darkmode .aboshop-holder .content .right,
+    .sf.darkmode .aboshop-holder .content .right,
+    .femina.darkmode .aboshop-holder .content .right,
+    .bilan.darkmode .aboshop-holder .content .right {
+        background: #555555 !important;
+    }
+}
+
+
 /* dark mode colors */
