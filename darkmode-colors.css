@@ -181,9 +181,10 @@
     color: #fff !important;
 }
 
-.darkmode .inline-holder .info-icon-holder .info-text .info-text-inner {
-    background: #202346;
-    color: #fff;
+.darkmode .info-icon-holder .info-text .info-text-inner,
+.darkmode .info-icon-holder .info-text .info-text-inner {
+    background: #202346 !important;
+    color: #fff !important;
 }
 
 .dark-mode .inline-holder .info-text {
