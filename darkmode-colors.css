@@ -91,6 +91,10 @@
     color: #121212 !important;
 }
 
+.darkmode .right .button1:hover {
+    background: #9d9b97 !important;
+}
+
 .darkmode .right .button2:not(div),
 .darkmode .right .button3:not(div) {
     background: #fff !important;
@@ -231,6 +235,13 @@
     background: #9d9b97 !important;
 }
 
+.fuw.darkmode .right .button3:not(div),
+.sf.darkmode .right .button3:not(div),
+.femina.darkmode .right .button3:not(div),
+.bilan.darkmode .right .button3:not(div) {
+    background: #fff !important;
+    color: #121212 !important;
+}
 
 /* darkmode verticals */
 
