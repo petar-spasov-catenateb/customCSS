@@ -56,7 +56,6 @@
 
 .darkmode .background .right {
     background: #555555 !important;
-    color: #fff;
 }
 
 .darkmode h1,
@@ -79,6 +78,11 @@
 .darkmode .vanilla-table tr>th,
 .darkmode .voucher-name {
     color: #e9e9e9 !important;
+}
+
+.darkmode .right h2,
+.darkmode .right .text {
+    color: #fff;
 }
 
 
@@ -232,10 +236,12 @@
 
 @media screen and (max-width: 712px) {
 
+    .darkmode .aboshop-holder .content .left,
     .fuw.darkmode .aboshop-holder .content .left,
     .sf.darkmode .aboshop-holder .content .left,
     .femina.darkmode .aboshop-holder .content .left,
     .bilan.darkmode .aboshop-holder .content .left,
+    .darkmode .aboshop-holder h1,
     .fuw.darkmode .aboshop-holder h1,
     .sf.darkmode .aboshop-holder h1,
     .femina.darkmode .aboshop-holder h1,
@@ -243,6 +249,7 @@
         background: #121212 !important;
     }
 
+    .darkmode .aboshop-holder .content .right,
     .fuw.darkmode .aboshop-holder .content .right,
     .sf.darkmode .aboshop-holder .content .right,
     .femina.darkmode .aboshop-holder .content .right,
