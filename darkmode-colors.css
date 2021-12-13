@@ -1,3 +1,4 @@
+
 /* DARK MODE COLORS */
 .darkmode,
 .darkmode a,
@@ -50,7 +51,8 @@
 .darkmode .inline-holder,
 .footer-modal,
 .darkmode .overlay-holder,
-.darkmode .background .left {
+.darkmode .background .left,
+.darkmode .aboshop-classic-holder {
     background: #121212 !important;
 }
 
@@ -105,17 +107,40 @@
     background: transparent !important;
 }
 
-.darkmode .offer,
+
 .darkmode .standard .inlay-background,
 .checkout .darkmode .account-head,
 .checkout .darkmode .view.view-confirmation .footer-modal {
     background: #555555 !important;
 }
 
+.darkmode .offer {
+    background: #202346 !important;
+}
+
 .darkmode .bestseller .offer,
 .darkmode .bestseller-bottom .offer,
 .darkmode .offers-holder.all-yellow .offer {
-    background: #e9e9e9 !important;
+    background: #ffe462 !important;
+}
+
+.darkmode .bestseller .offer *,
+.darkmode .bestseller-bottom .offer *,
+.darkmode .offers-holder.all-yellow .offer *{
+	color: #202346 !important;
+}
+
+.darkmode .bestseller .offer .primary,
+.darkmode .bestseller-bottom .offer .primary,
+.darkmode .offers-holder.all-yellow .offer .primary {
+	background: #202346 !important;
+  	color: #fff !important;
+}
+
+.darkmode .bestseller .offer .primary:hover,
+.darkmode .bestseller-bottom .offer .primary:hover,
+.darkmode .offers-holder.all-yellow .offer .primary:hover {
+	background: #797B90 !important;
 }
 
 .darkmode .button2:not(div),
@@ -185,6 +210,7 @@
 }
 
 .darkmode .bestseller .bestseller-text div {
+  	background: #121212;
     color: #fff !important;
 }
 
@@ -235,10 +261,14 @@
     background: #9d9b97 !important;
 }
 
-.fuw.darkmode .right .button3:not(div),
-.sf.darkmode .right .button3:not(div),
-.femina.darkmode .right .button3:not(div),
-.bilan.darkmode .right .button3:not(div) {
+.fuw.darkmode .right .button2:not(div),
+.sf.darkmode .right .button2:not(div),
+.femina.darkmode .right .button2:not(div),
+.bilan.darkmode .right .button2:not(div)
+.fuw.darkmode .right .button2:not(div),
+.sf.darkmode .right .button2:not(div),
+.femina.darkmode .right .button2:not(div),
+.bilan.darkmode .right .button2:not(div) {
     background: #fff !important;
     color: #121212 !important;
 }
