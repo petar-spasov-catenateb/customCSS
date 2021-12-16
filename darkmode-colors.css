@@ -150,6 +150,10 @@
     color: #fff !important;
 }
 
+.darkmode .additional-payments-holder .btn--large.btn--gray {
+    background: #c8c8d1 !important;
+}
+
 .darkmode .button2:not(div):hover,
 .darkmode .button3:not(div):hover,
 .darkmode .btn--large.btn--gray:hover {
@@ -215,7 +219,10 @@
 }
 
 .darkmode .info-icon-holder .info-text .info-text-inner,
-.darkmode .info-icon-holder .info-text .info-text-inner {
+.darkmode .info-icon-holder .info-text .info-text-inner,
+.darkmode#piano-myaccount .btn-group>.dropdown-menu,
+.darkmode .action-select option,
+.darkmode .pn-list .pn-list-item.edit {
     background: #202346 !important;
     color: #fff !important;
 }
@@ -226,6 +233,46 @@
 
 .shadow .darkmode .inline-holder {
     box-shadow: 0 0 15px 0 #7D7D7D;
+}
+
+.darkmode .payment-method-card-default-payment {
+	color: #d4d4d4;
+}
+
+.darkmode .vanilla-table tr>td {
+	border-color: #7d7d7d;
+}
+
+.darkmode .pn-licensing-select,
+.darkmode input,
+.darkmode .pn-list input.pn-list-search {
+	background-color:#c8c8d1 !important;
+  	color: #202346 !important;
+}
+
+.darkmode .pn-list .pn-list-item input {
+ 	color: #e9e9e9 !important;
+}
+
+.darkmode .pn-list .pn-list-item input::-webkit-input-placeholder {
+  color: #e9e9e9 !important;
+}
+
+.darkmode .pn-list .pn-list-item input::-moz-placeholder { 
+   color: #e9e9e9 !important;
+}
+
+.darkmode .pn-list .pn-list-item input:-ms-input-placeholder { 
+  color: #e9e9e9 !important;
+}
+
+.darkmode .pn-list .pn-list-item input:-moz-placeholder { 
+  color: #e9e9e9 !important;
+}
+
+
+.darkmode .pn-licensing-select * {
+  	color: #202346 !important;
 }
 
 /* DARKMODE VERTICALS */
