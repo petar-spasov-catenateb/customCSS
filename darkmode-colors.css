@@ -6,7 +6,6 @@
 .darkmode .inline-holder,
 .darkmode .overlay-holder,
 .darkmode .checkout,
-.checkout .darkmode .account-head .benefits,
 .checkout .darkmode .term-details,
 .checkout .darkmode .term-details t,
 .checkout .darkmode .tariff-plan-cell,
@@ -109,7 +108,6 @@
 
 
 .darkmode .standard .inlay-background,
-.checkout .darkmode .account-head,
 .checkout .darkmode .view.view-confirmation .footer-modal {
     background: #555555 !important;
 }
@@ -222,7 +220,9 @@
 .darkmode .info-icon-holder .info-text .info-text-inner,
 .darkmode#piano-myaccount .btn-group>.dropdown-menu,
 .darkmode .action-select option,
-.darkmode .pn-list .pn-list-item.edit {
+.darkmode .pn-list .pn-list-item.edit,
+.darkmode .pn-licensing__dropdown-item-button, 
+.darkmode .pn-list .pn-list-scopes .dropdown-menu li {
     background: #202346 !important;
     color: #fff !important;
 }
