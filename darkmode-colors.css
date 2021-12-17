@@ -49,7 +49,8 @@
 .darkmode .footer-modal,
 .darkmode .overlay-holder,
 .darkmode .background .left,
-.darkmode .aboshop-classic-holder {
+.darkmode .aboshop-classic-holder,
+.darkmode#piano-receipt .receipt { 
     background: #121212 !important;
 }
 
@@ -358,6 +359,5 @@
         background: #555555 !important;
     }
 }
-
 
 /* dark mode colors */
