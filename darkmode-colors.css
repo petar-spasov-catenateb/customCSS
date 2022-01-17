@@ -50,8 +50,10 @@
 .darkmode .overlay-holder,
 .darkmode .background .left,
 .darkmode .aboshop-classic-holder,
-.darkmode#piano-receipt .receipt,
-.darkmode .radiobutton__label::before { 
+.darkmode .receipt,
+.darkmode .radiobutton__label::before,
+.darkmode#piano-shared-subscription-modal,
+.darkomode#piano-already-has-access { 
     background: #121212 !important;
 }
 
