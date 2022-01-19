@@ -1,4 +1,3 @@
-
 /* DARK MODE COLORS */
 .darkmode,
 .darkmode a,
@@ -39,7 +38,12 @@
 .darkmode .pn-licensing__dropdown-item-button,
 .darkmode .pn-list .pn-list-scopes .dropdown-menu li,
 .darkmode .btn.btn-back,
-.darkmode .go-back-to-cards-wrapper {
+.darkmode .go-back-to-cards-wrapper,
+.darkmode .shared-subscription-modal,
+.darkmode .shared-subscription-modal .ss__subheading,
+.darkmode .shared-subscription-modal .ss__add-shared-account,
+.darkmode .shared-subscription-modal .ss__add-shared-account--limit,
+.darkmode .youth-overlay-inner {
     color: #e9e9e9 !important;
 }
 
@@ -53,7 +57,8 @@
 .darkmode .receipt,
 .darkmode .radiobutton__label::before,
 .darkmode#piano-shared-subscription-modal,
-.darkmode#piano-already-has-access { 
+.darkmode#piano-already-has-access,
+.darkmode .youth-overlay-inner { 
     background: #121212 !important;
 }
 
@@ -150,7 +155,11 @@
 
 .darkmode .button2:not(div),
 .darkmode .button3:not(div),
-.darkmode .btn--large.btn--gray {
+.darkmode .btn--large.btn--gray,
+.darkmode a.button.gray, a.button.gray:visited, 
+.darkmode button.button.gray, 
+.darkmode button.button.gray:visited,
+.darkmode button.secondary {
     background: #6f7187 !important;
     color: #fff !important;
 }
@@ -171,7 +180,11 @@
 
 .darkmode .button2:not(div):hover,
 .darkmode .button3:not(div):hover,
-.darkmode .btn--large.btn--gray:hover {
+.darkmode .btn--large.btn--gray:hover,
+.darkmode a.button.gray, a.button.gray:visited:hover, 
+.darkmode button.button.gray:hover, 
+.darkmode button.button.gray:visited:hover,
+.darkmode button.secondary {
     background: #474A66 !important;
 }
 
@@ -201,10 +214,18 @@
 .darkmode .btn.disabled:hover,
 .darkmode .btn[disabled],
 .darkmode .btn[disabled]:active,
-.darkmode .btn[disabled]:hover {
+.darkmode .btn[disabled]:hover,
+.darkmode .button.small.disabled,
+.darkmode .button.small.disabled:hover,
+.darkmode .button.small[disabled],
+.darkmode .button.small[disabled]:hover{
     opacity: 1 !important;
     background: #555555 !important;
     color: #d4d4d0 !important;
+}
+
+.darkmode .btn.underline {
+    background: none !important;
 }
 
 .darkmode .button1,
@@ -215,7 +236,8 @@
 .checkout .darkmode .complete-purchase-button:not(.disabled):not(:disabled) a,
 .darkmode .btn--large.btn--blue,
 .darkmode .complete-purchase:not(.disabled):not(:disabled),
-.darkmode .complete-purchase-button:not(.disabled):not(:disabled){
+.darkmode .complete-purchase-button:not(.disabled):not(:disabled),
+.darkmode .shared-subscription-modal .add-button{
     background: #ffe462 !important;
     color: #202346 !important;
 }
@@ -226,7 +248,8 @@
 .checkout .darkmode .complete-purchase-button:not(.disabled):not(:disabled):hover,
 .checkout .darkmode .complete-purchase:not(.disabled):not(:disabled) a:hover,
 .checkout .darkmode .complete-purchase-button:not(.disabled):not(:disabled) a:hover,
-.darkmode .btn--large.btn--blue:hover {
+.darkmode .btn--large.btn--blue:hover,
+.darkmode .shared-subscription-modal .add-button:hover {
     background: #FFF2B7 !important;
 }
 
