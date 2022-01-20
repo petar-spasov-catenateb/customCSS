@@ -16,13 +16,13 @@
 .checkout .darkmode .consents .custom-checkbox label a:visited,
 .checkout .darkmode .receipt .content,
 .checkout .darkmode .view-alreadyHasAccess .content,
-.darkmode#piano-myaccount,
-.darkmode#piano-myaccount .btn-group>.btn,
-.darkmode#piano-myaccount .btn-group>.dropdown-menu,
-.darkmode#piano-myaccount .btn-group>.popover,
-.darkmode#piano-myaccount .change-option-description,
-.darkmode#piano-myaccount ul.simple-list>li.simple-list__item--with-dot,
-.darkmode#piano-myaccount ul.simple-list>li.simple-list__item,
+.darkmode #piano-myaccount,
+.darkmode #piano-myaccount .btn-group>.btn,
+.darkmode #piano-myaccount .btn-group>.dropdown-menu,
+.darkmode #piano-myaccount .btn-group>.popover,
+.darkmode #piano-myaccount .change-option-description,
+.darkmode #piano-myaccount ul.simple-list>li.simple-list__item--with-dot,
+.darkmode #piano-myaccount ul.simple-list>li.simple-list__item,
 .darkmode .update-payment-method .payment_info,
 .darkmode .vanilla-table tr>td .resource-title,
 .darkmode .vanilla-table tr>td .transaction-date,
@@ -47,7 +47,7 @@
     color: #e9e9e9 !important;
 }
 
-.darkmode#piano-myaccount,
+.darkmode #piano-myaccount,
 .darkmode#piano-checkout,
 .darkmode .inline-holder,
 .darkmode .footer-modal,
@@ -73,14 +73,14 @@
 .checkout .darkmode .account-head-contentcol h1,
 .checkout .darkmode .receipt h1,
 .checkout .darkmode .view-alreadyHasAccess h1,
-.darkmode#piano-myaccount h1,
-.darkmode#piano-myaccount h2,
-.darkmode#piano-myaccount h3,
-.darkmode#piano-myaccount .header-navigation-tabs li a,
-.darkmode#piano-myaccount .item-name,
-.darkmode#piano-myaccount .manage-dropdown li,
-.darkmode#piano-myaccount .section-text,
-.darkmode#piano-myaccount .change-option-title,
+.darkmode #piano-myaccount h1,
+.darkmode #piano-myaccount h2,
+.darkmode #piano-myaccount h3,
+.darkmode #piano-myaccount .header-navigation-tabs li a,
+.darkmode #piano-myaccount .item-name,
+.darkmode #piano-myaccount .manage-dropdown li,
+.darkmode #piano-myaccount .section-text,
+.darkmode #piano-myaccount .change-option-title,
 .darkmode .modal h3,
 .darkmode .modal .close i,
 .darkmode .vanilla-table tr>th,
@@ -205,7 +205,7 @@
     background: #e9e9e9;
 }
 
-.darkmode#piano-myaccount .header-navigation-tabs li.active a {
+.darkmode #piano-myaccount .header-navigation-tabs li.active a {
     border-bottom: 3px solid #e9e9e9;
 }
 
@@ -260,7 +260,7 @@
 
 .darkmode .info-icon-holder .info-text .info-text-inner,
 .darkmode .info-icon-holder .info-text .info-text-inner,
-.darkmode#piano-myaccount .btn-group>.dropdown-menu,
+.darkmode #piano-myaccount .btn-group>.dropdown-menu,
 .darkmode .action-select option,
 .darkmode .pn-list .pn-list-item.edit,
 .darkmode .pn-licensing__dropdown-item-button, 
