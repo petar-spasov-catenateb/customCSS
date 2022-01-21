@@ -58,7 +58,10 @@
 .darkmode .radiobutton__label::before,
 .darkmode#piano-shared-subscription-modal,
 .darkmode#piano-already-has-access,
-.darkmode .youth-overlay-inner { 
+.darkmode .youth-overlay-inner,
+.darkmode .modal .modal-content,
+.darkmode .myaccount-custom-modal-container,
+.darkmode .update-payment-method .vanilla-table.cards-table .even { 
     background: #121212 !important;
 }
 
@@ -234,7 +237,7 @@
 .checkout .darkmode .complete-purchase-button:not(.disabled):not(:disabled),
 .checkout .darkmode .complete-purchase:not(.disabled):not(:disabled) a,
 .checkout .darkmode .complete-purchase-button:not(.disabled):not(:disabled) a,
-.darkmode .btn--large.btn--blue,
+.darkmode .btn--large.btn--blue:not(.disabled):not(:disabled),
 .darkmode .complete-purchase:not(.disabled):not(:disabled),
 .darkmode .complete-purchase-button:not(.disabled):not(:disabled),
 .darkmode .shared-subscription-modal .add-button{
@@ -248,9 +251,21 @@
 .checkout .darkmode .complete-purchase-button:not(.disabled):not(:disabled):hover,
 .checkout .darkmode .complete-purchase:not(.disabled):not(:disabled) a:hover,
 .checkout .darkmode .complete-purchase-button:not(.disabled):not(:disabled) a:hover,
-.darkmode .btn--large.btn--blue:hover,
+.darkmode .btn--large.btn--blue:not(.disabled):not(:disabled):hover,
 .darkmode .shared-subscription-modal .add-button:hover {
     background: #FFF2B7 !important;
+}
+
+.darkmode .btn.underline:hover, 
+.darkmode .underline .btn.dropdown-toggle:hover, 
+.darkmode .manage-dropwon:hover, 
+.darkmode .vanilla-table button:hover, 
+.darkmode .shared-subscription-modal 
+.darkmode .ss__add-shared-account:hover, 
+.darkmode .shared-subscription-modal .ss__add-shared-account:hover .ss__add-shared-account--limit, 
+.darkmode .btn.btn-back:hover,
+.darkmode .btn.underline:hover {
+	color: #797B90 !important;
 }
 
 .darkmode .bestseller .bestseller-text div {
