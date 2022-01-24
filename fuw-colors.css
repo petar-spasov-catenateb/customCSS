@@ -46,11 +46,35 @@
 .checkout .darkmode .complete-purchase-button:not(.disabled):not(:disabled) a:hover,
 .darkmode .btn--large.btn--blue:hover,
 .darkmode .btn--large.btn--blue:not(.disabled):not(:disabled):hover {
-    background: rgba(4, 55, 133, 0.8) !important;
+    background: rgba(7, 89, 213, 0.8) !important;
 }
 
 .fuw.darkmode .bestseller .bestseller-text div {
     color: #0759D5 !important;
+}
+
+
+.darkmode .button2:not(div), 
+.darkmode .button3:not(div), 
+.darkmode .btn--large.btn--gray, 
+.darkmode a.button.gray, 
+a.button.gray:visited, 
+.darkmode button.button.gray, 
+.darkmode button.button.gray:visited, 
+.darkmode button.secondary {
+    background: #aba9a4 !important;
+  	color:#fff !important;
+}
+
+.darkmode .button2:not(div):hover, 
+.darkmode .button3:not(div):hover, 
+.darkmode .btn--large.btn--gray:hover, 
+.darkmode a.button.gray:hover, 
+a.button.gray:visited:hover, 
+.darkmode button.button.gray:hover, 
+.darkmode button.button.gray:visited:hover, 
+.darkmode button.secondary:hover {
+    background: rgba(171, 169, 164, 0.8) !important;
 }
 
 /* darkmode */

@@ -26,4 +26,31 @@
     color: #d92128 !important;
 }
 
+/* DARKMODE */
+
+.darkmode .button2:not(div), 
+.darkmode .button3:not(div), 
+.darkmode .btn--large.btn--gray, 
+.darkmode a.button.gray, 
+a.button.gray:visited, 
+.darkmode button.button.gray, 
+.darkmode button.button.gray:visited, 
+.darkmode button.secondary {
+    background: #aba9a4 !important;
+  	color:#fff !important;
+}
+
+.darkmode .button2:not(div):hover, 
+.darkmode .button3:not(div):hover, 
+.darkmode .btn--large.btn--gray:hover, 
+.darkmode a.button.gray:hover, 
+a.button.gray:visited:hover, 
+.darkmode button.button.gray:hover, 
+.darkmode button.button.gray:visited:hover, 
+.darkmode button.secondary:hover {
+    background: rgba(171, 169, 164, 0.8) !important;
+}
+
+/* darkmode */
+
 /* femina */
