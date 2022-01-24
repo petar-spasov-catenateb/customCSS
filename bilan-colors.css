@@ -33,7 +33,7 @@
 .checkout .darkmode .complete-purchase:not(.disabled):not(:disabled) a,
 .checkout .darkmode .complete-purchase-button:not(.disabled):not(:disabled) a,
 .darkmode .btn--large.btn--blue,
-.darkmode .btn--large.btn--blue:not(.disabled):not(:disabled){
+.darkmode .btn--large.btn--blue:not(.disabled):not(:disabled) {
     background: #C32225 !important;
   	color:#fff !important;
 }

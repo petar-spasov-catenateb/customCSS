@@ -5,7 +5,8 @@
 .checkout .complete-purchase-button:not(.disabled):not(:disabled),
 .checkout .complete-purchase:not(.disabled):not(:disabled) a,
 .checkout .complete-purchase-button:not(.disabled):not(:disabled) a,
-.btn--large.btn--blue {
+.btn--large.btn--blue,
+.darkmode .btn--large.btn--blue:not(.disabled):not(:disabled) {
     background: #de232b !important;
     color: #fff !important;
 }
@@ -16,7 +17,8 @@
 .checkout .complete-purchase-button:not(.disabled):not(:disabled):hover,
 .checkout .complete-purchase:not(.disabled):not(:disabled) a:hover,
 .checkout .complete-purchase-button:not(.disabled):not(:disabled) a:hover,
-.btn--large.btn--blue:hover {
+.btn--large.btn--blue:hover,
+.darkmode .btn--large.btn--blue:not(.disabled):not(:disabled):hover {
     background: rgba(222, 35, 43, 0.8) !important;
 }
 
