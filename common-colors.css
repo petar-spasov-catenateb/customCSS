@@ -118,6 +118,13 @@ my-account-licensing *,
     color: #121212 !important;
 }
 
+.fuw .right .button1:hover,
+.sf .right .button1:hover,
+.femina .right .button1:hover,
+.bilan .right .button1:hover {
+    background: #797B90 !important;
+}
+
 .fuw .right .button2:not(div),
 .fuw .right .button3:not(div),
 .sf .right .button2:not(div),
