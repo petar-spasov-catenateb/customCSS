@@ -193,7 +193,7 @@ my-account-licensing *,
 }
 
 .custom-checkbox label:before,
-.custom-radio-button label,
+.custom-radio-button:not(.with-text) label,
 .custom-radio-button.with-text label:after,
 .radiobutton input:checked+.radiobutton__label::before {
     border: 2px solid #333333 !important;
