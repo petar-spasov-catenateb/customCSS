@@ -44,7 +44,8 @@
 .darkmode .shared-subscription-modal .ss__add-shared-account,
 .darkmode .shared-subscription-modal .ss__add-shared-account--limit,
 .darkmode .youth-overlay-inner,
-.darkmode .set-as-default-button {
+.darkmode .set-as-default-button,
+.darkmode .view-giftParams {
     color: #e9e9e9 !important;
 }
 
@@ -62,7 +63,9 @@
 .darkmode .youth-overlay-inner,
 .darkmode .modal .modal-content,
 .darkmode .myaccount-custom-modal-container,
-.darkmode .update-payment-method .vanilla-table.cards-table .even { 
+.darkmode .update-payment-method .vanilla-table.cards-table .even,
+.darkmode#piano-gift,
+.darkmode#piano-gift .gift-footer{ 
     background: #121212 !important;
 }
 
@@ -199,7 +202,6 @@
 }
 
 .darkmode .custom-checkbox label:before,
-.darkmode .custom-radio-button label,
 .darkmode .custom-radio-button.with-text label:after,
 .darkmode .radiobutton input:checked+.radiobutton__label::before {
     border: 2px solid #e9e9e9;
@@ -305,6 +307,7 @@
 
 .darkmode .pn-licensing-select,
 .darkmode input,
+.darkmode textarea,
 .darkmode .pn-list input.pn-list-search,
 .darkmode .billing-country .tp-dropdown__select, 
 .darkmode .promo-code-component input,
