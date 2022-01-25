@@ -174,10 +174,10 @@ my-account-licensing *,
 .bilan .button2:not(div),
 .bilan .button3:not(div),
 .btn--large.btn--gray,
-a.button.gray:not(.disabled):not(:disabled), 
-a.button.gray:not(.disabled):not(:disabled):visited, 
-button.button.gray:not(.disabled):not(:disabled), 
-button.button.gray:visited:not(.disabled):not(:disabled) {
+.view-giftParams a.button.gray:not(.disabled):not(:disabled), 
+.view-giftParams a.button.gray:not(.disabled):not(:disabled):visited, 
+.view-giftParams button.button.gray:not(.disabled):not(:disabled), 
+.view-giftParams button.button.gray:visited:not(.disabled):not(:disabled) {
     background: #e4e2db !important;
     color: #121212 !important;
 }
