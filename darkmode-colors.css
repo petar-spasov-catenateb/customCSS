@@ -414,7 +414,8 @@
 .sf.darkmode .standard .inlay-background, 
 .femina.darkmode .standard .inlay-background, 
 .bilan.darkmode .standard .inlay-background {
-    color: #f4f4f4 !important
+    background: #f4f4f4 !important;
+    color: #333;
 }
 
 .fuw.darkmode .bestseller .offer, 
@@ -427,7 +428,15 @@
 .femina.darkmode .offers-holder.all-yellow .offer, 
 .bilan.darkmode .bestseller .offer, .bilan .bestseller-bottom .offer, 
 .bilan.darkmode .offers-holder.all-yellow .offer {
-    color: #e9e9e9 !important;
+    background: #e9e9e9 !important;
+    color: #333;
+}
+
+.fuw.darkmode h3 .offer,
+.sf.darkmode h3 .offer,
+.femina.darkmode h3 .offer,
+.bilan.darkmode h3 .offer {
+    color: #333 !important;
 }
 
 /* darkmode verticals */
