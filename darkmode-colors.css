@@ -432,10 +432,10 @@
     color: #333;
 }
 
-.fuw.darkmode h3 .offer,
-.sf.darkmode h3 .offer,
-.femina.darkmode h3 .offer,
-.bilan.darkmode h3 .offer {
+.fuw.darkmode .offer h3,
+.sf.darkmode .offer h3,
+.femina.darkmode .offer h3,
+.bilan.darkmode .offer h3 {
     color: #333 !important;
 }
 
