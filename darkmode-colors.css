@@ -43,7 +43,8 @@
 .darkmode .shared-subscription-modal .ss__subheading,
 .darkmode .shared-subscription-modal .ss__add-shared-account,
 .darkmode .shared-subscription-modal .ss__add-shared-account--limit,
-.darkmode .youth-overlay-inner {
+.darkmode .youth-overlay-inner,
+.darkmode .set-as-default-button {
     color: #e9e9e9 !important;
 }
 
@@ -113,7 +114,8 @@
     color: #121212 !important;
 }
 
-.darkmode .right div.button2:not(div) {
+.darkmode .right div.button2:not(div),
+.darkmode .set-as-default-button {
     background: transparent !important;
 }
 
@@ -269,7 +271,7 @@
 .darkmode .ss__add-shared-account:hover, 
 .darkmode .shared-subscription-modal .ss__add-shared-account:hover .ss__add-shared-account--limit, 
 .darkmode .btn.btn-back:hover,
-.darkmode .btn.underline:hover {
+.darkmode .ss__add-shared-account:hover {
 	color: #555555 !important;
 }
 
