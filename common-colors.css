@@ -198,6 +198,13 @@ my-account-licensing *,
     background: rgba(233, 231, 226, 0.8) !important;
 }
 
+#piano-myaccount .btn-group>.btn:hover,
+#piano-myaccount .manage-dropdown li:hover,
+.vanilla-table button,
+.btn.underline {
+    color: #e4e2db !important;
+}
+
 .checkout .promo-code-component input {
     border-bottom: 1px solid #7d7d7d !important;
 }

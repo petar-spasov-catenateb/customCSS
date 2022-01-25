@@ -128,7 +128,8 @@
     background: #555555 !important;
 }
 
-.darkmode .offer {
+.darkmode .offer,
+.pn-list .manage-dropdown.dropdown-menu {
     background: #202346 !important;
 }
 
@@ -265,6 +266,8 @@
     background: #FFF2B7 !important;
 }
 
+.darkmode #piano-myaccount .btn-group>.btn:hover,
+.darkmode #piano-myaccount .manage-dropdown li:hover,
 .darkmode .btn.underline:hover, 
 .darkmode .underline .btn.dropdown-toggle:hover, 
 .darkmode .manage-dropwon:hover, 
@@ -311,10 +314,16 @@
 .darkmode .pn-list input.pn-list-search,
 .darkmode .billing-country .tp-dropdown__select, 
 .darkmode .promo-code-component input,
-.darkmode .new-card-form .field-wrapper .input {
+.darkmode .new-card-form .field-wrapper .input,
+.darkmode .pn-list .pn-list-scopes {
 	background-color:#c8c8d1 !important;
   	color: #202346 !important;
 }
+
+.darkmode .pn-list .pn-list-scopes .pn-list-scope {
+  	color: #202346 !important;
+}
+
 
 .darkmode .pn-list .pn-list-item input {
  	color: #e9e9e9 !important;
@@ -346,6 +355,11 @@
 .darkmode .custom-checkbox input:checked+label:after,
 .darkmode .info-icon-holder i {
 	color: #121212 !important;
+}
+
+.darkmode .pn-licensing__dropdown-item-button:hover, 
+.darkmode .pn-list .pn-list-scopes .dropdown-menu li:hover {
+    background: transparent;
 }
 
 /* DARKMODE VERTICALS */
