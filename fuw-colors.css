@@ -22,7 +22,8 @@ button.button:not(.disabled):not(:disabled):not([disabled]) {
 .btn--large.btn--blue:hover,
 a.button:not(.disabled):not(:disabled):not([disabled]):hover,
 a.button:visited:not(.disabled):not(:disabled):not([disabled]):hover,
-button.button:not(.disabled):not(:disabled):not([disabled]):hover {
+button.button:not(.disabled):not(:disabled):not([disabled]):hover,
+a.button:not(.pay):not(.disabled):not(:disabled):not([disabled]):not(.promo-code-apply):hover {
     background: rgba(4, 55, 133, 0.8) !important;
 }
 

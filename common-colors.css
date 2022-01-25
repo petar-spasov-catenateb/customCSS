@@ -56,7 +56,8 @@ my-account-licensing,
 my-account-licensing *,
 .pn-licensing__dropdown-item-button,
 .pn-list .pn-list-scopes .dropdown-menu li,
-.btn.btn-back {
+.btn.btn-back,
+.view-giftParams {
     color: #333 !important;
 }
 
