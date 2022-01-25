@@ -224,7 +224,9 @@
 .darkmode .button.small[disabled],
 .darkmode .button.small[disabled]:hover,
 .darkmode .btn--large.btn--blue[disabled],
-.darkmode .btn--large.btn--blue[disabled]:hover {
+.darkmode .btn--large.btn--blue[disabled]:hover,
+.darkmode .btn--large.btn--gray[disabled],
+.darkmode .btn--large.btn--gray[disabled]:hover {
     opacity: 1 !important;
     background: #555555 !important;
     color: #d4d4d0 !important;
