@@ -201,10 +201,11 @@
     border-bottom: 1px solid #7d7d7d !important;
 }
 
+.darkmode .custom-radio-button label,
 .darkmode .custom-checkbox label:before,
 .darkmode .custom-radio-button.with-text label:after,
 .darkmode .radiobutton input:checked+.radiobutton__label::before {
-    border: 2px solid #e9e9e9;
+    border-color: #e9e9e9 !important;
 }
 
 .darkmode .custom-checkbox input:checked+label:before,
