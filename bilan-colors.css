@@ -5,7 +5,10 @@
 .checkout .complete-purchase-button:not(.disabled):not(:disabled),
 .checkout .complete-purchase:not(.disabled):not(:disabled) a,
 .checkout .complete-purchase-button:not(.disabled):not(:disabled) a,
-.btn--large.btn--blue {
+.btn--large.btn--blue,
+.view-giftParams a.button:not([disabled]):not(:disabled),
+.view-giftParams a.button:visited:not(.disabled):not(:disabled),
+.view-giftParams button.button:not(.disabled):not(:disabled) {
     background: #AA0A0C !important;
     color: #fff !important;
 }
@@ -16,7 +19,10 @@
 .checkout .complete-purchase-button:not(.disabled):not(:disabled):hover,
 .checkout .complete-purchase:not(.disabled):not(:disabled) a:hover,
 .checkout .complete-purchase-button:not(.disabled):not(:disabled) a:hover,
-.btn--large.btn--blue:hover {
+.btn--large.btn--blue:hover,
+.view-giftParams a.button:not([disabled]):not(:disabled):hover,
+.view-giftParams a.button:visited:not(.disabled):not(:disabled):hover,
+.view-giftParams button.button:not(.disabled):not(:disabled):hover {
     background: rgba(170, 10, 12, 0.8) !important;
 }
 

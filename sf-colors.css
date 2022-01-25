@@ -16,7 +16,10 @@
 .darkmode .btn--large.btn--blue:not(.disabled):not(:disabled),
 .darkmode .complete-purchase:not(.disabled):not(:disabled),
 .darkmode .complete-purchase-button:not(.disabled):not(:disabled),
-.darkmode .shared-subscription-modal .add-button {
+.darkmode .shared-subscription-modal .add-button,
+.view-giftParams a.button:not([disabled]):not(:disabled),
+.view-giftParams a.button:visited:not(.disabled):not(:disabled),
+.view-giftParams button.button:not(.disabled):not(:disabled) {
     background: #de232b !important;
     color: #fff !important;
 }
@@ -38,7 +41,10 @@
 .darkmode .btn--large.btn--blue:not(.disabled):not(:disabled):hover,
 .darkmode .complete-purchase:not(.disabled):not(:disabled):hover,
 .darkmode .complete-purchase-button:not(.disabled):not(:disabled):hover,
-.darkmode .shared-subscription-modal .add-button:hover {
+.darkmode .shared-subscription-modal .add-button:hover,
+.view-giftParams a.button:not([disabled]):not(:disabled):hover,
+.view-giftParams a.button:visited:not(.disabled):not(:disabled):hover,
+.view-giftParams button.button:not(.disabled):not(:disabled):hover {
     background: rgba(222, 35, 43, 0.8) !important;
 }
 
