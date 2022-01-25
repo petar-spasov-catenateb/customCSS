@@ -6,9 +6,9 @@
 .checkout .complete-purchase:not(.disabled):not(:disabled) a, 
 .checkout .complete-purchase-button:not(.disabled):not(:disabled) a,
 .btn--large.btn--blue,
-div:not(.payment-form-holder) a.button:not(.disabled):not(:disabled),
-a.button:visited:not(.disabled):not(:disabled),
-button.button:not(.disabled):not(:disabled) {
+.view-giftParams a.button:not(.disabled):not(:disabled),
+.view-giftParams a.button:visited:not(.disabled):not(:disabled),
+.view-giftParams button.button:not(.disabled):not(:disabled) {
     background: #043785 !important;
     color: #fff !important;
 }
@@ -20,9 +20,9 @@ button.button:not(.disabled):not(:disabled) {
 .checkout .complete-purchase:not(.disabled):not(:disabled) a:hover, 
 .checkout .complete-purchase-button:not(.disabled):not(:disabled) a:hover,
 .btn--large.btn--blue:hover,
-div:not(.payment-form-holder) a.button:not(.disabled):not(:disabled):hover,
-a.button:visited:not(.disabled):not(:disabled):hover,
-button.button:not(.disabled):not(:disabled):hover,
+.view-giftParams a.button:not(.disabled):not(:disabled):hover,
+.view-giftParams a.button:visited:not(.disabled):not(:disabled):hover,
+.view-giftParams button.button:not(.disabled):not(:disabled):hover,
 a.button:not(.pay):not(.disabled):not(:disabled):not(.promo-code-apply):hover {
     background: rgba(4, 55, 133, 0.8) !important;
 }
