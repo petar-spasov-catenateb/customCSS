@@ -22,8 +22,7 @@
 .btn--large.btn--blue:hover,
 .view-giftParams a.button:not(.disabled):not(:disabled):hover,
 .view-giftParams a.button:visited:not(.disabled):not(:disabled):hover,
-.view-giftParams button.button:not(.disabled):not(:disabled):hover,
-a.button:not(.pay):not(.disabled):not(:disabled):not(.promo-code-apply):hover {
+.view-giftParams button.button:not(.disabled):not(:disabled):hover {
     background: rgba(4, 55, 133, 0.8) !important;
 }
 
