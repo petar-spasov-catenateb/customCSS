@@ -196,13 +196,13 @@ my-account-licensing *,
 .custom-radio-button label,
 .custom-radio-button.with-text label:after,
 .radiobutton input:checked+.radiobutton__label::before {
-    border: 2px solid #333333;
+    border: 2px solid #333333 !important;
 }
 
 .custom-checkbox input:checked+label:before,
 .custom-radio-button input:checked+label:before,
 .radiobutton__label::after {
-    background: #333333;
+    background: #333333 !important;
 }
 
 #piano-myaccount .header-navigation-tabs li.active a {
