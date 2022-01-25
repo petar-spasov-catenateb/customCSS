@@ -13,7 +13,10 @@
 .darkmode .shared-subscription-modal .add-button,
 .view-giftParams a.button:not([disabled]):not(:disabled),
 .view-giftParams a.button:visited:not(.disabled):not(:disabled),
-.view-giftParams button.button:not(.disabled):not(:disabled) {
+.view-giftParams button.button:not(.disabled):not(:disabled),
+.darkmode .bestseller .offer .primary, 
+.darkmode .bestseller-bottom .offer .primary, 
+.darkmode .offers-holder.all-yellow .offer .primary {
     background: #de232b !important;
     color: #fff !important;
 }
@@ -32,7 +35,10 @@
 .darkmode .shared-subscription-modal .add-button:hover,
 .view-giftParams a.button:not([disabled]):not(:disabled):hover,
 .view-giftParams a.button:visited:not(.disabled):not(:disabled):hover,
-.view-giftParams button.button:not(.disabled):not(:disabled):hover {
+.view-giftParams button.button:not(.disabled):not(:disabled):hover,
+.darkmode .bestseller .offer .primary:hover, 
+.darkmode .bestseller-bottom .offer .primary:hover, 
+.darkmode .offers-holder.all-yellow .offer .primary:hover {
     background: rgba(222, 35, 43, 0.8) !important;
 }
 
