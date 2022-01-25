@@ -6,7 +6,7 @@
 .checkout .complete-purchase:not(.disabled):not(:disabled) a, 
 .checkout .complete-purchase-button:not(.disabled):not(:disabled) a,
 .btn--large.btn--blue,
-a.button:not(.disabled):not(:disabled),
+a.button:not(.disabled):not(:disabled):not(.select-payment),
 a.button:visited:not(.disabled):not(:disabled),
 button.button:not(.disabled):not(:disabled) {
     background: #043785 !important;
@@ -20,7 +20,7 @@ button.button:not(.disabled):not(:disabled) {
 .checkout .complete-purchase:not(.disabled):not(:disabled) a:hover, 
 .checkout .complete-purchase-button:not(.disabled):not(:disabled) a:hover,
 .btn--large.btn--blue:hover,
-a.button:not(.disabled):not(:disabled):hover,
+a.button:not(.disabled):not(:disabled):not(.select-payment):hover,
 a.button:visited:not(.disabled):not(:disabled):hover,
 button.button:not(.disabled):not(:disabled):hover,
 a.button:not(.pay):not(.disabled):not(:disabled):not(.promo-code-apply):hover {
