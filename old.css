@@ -168,16 +168,16 @@
 /* FUW */
 .fuw .button1,
 .fuw .primary,
-.checkout .complete-purchase:not(.disabled):not(:disabled):not([disabled]), 
-.checkout .complete-purchase-button:not(.disabled):not(:disabled):not([disabled]) {
+.checkout .complete-purchase:not(.disabled):not(:disabled), 
+.checkout .complete-purchase-button:not(.disabled):not(:disabled) {
     background: #043785 !important;
     color: #fff !important;
 }
 
 .fuw .button1:hover,
 .fuw .primary:hover,
-.checkout .complete-purchase:not(.disabled):not(:disabled):not([disabled]):hover, 
-.checkout .complete-purchase-button:not(.disabled):not(:disabled):not([disabled]):hover {
+.checkout .complete-purchase:not(.disabled):not(:disabled):hover, 
+.checkout .complete-purchase-button:not(.disabled):not(:disabled):hover {
     background: rgba(4, 55, 133, 0.8) !important;
 }
 
@@ -195,16 +195,16 @@
 /* SCHWEIZER */
 .sf .button1,
 .sf .primary,
-.checkout .complete-purchase:not(.disabled):not(:disabled):not([disabled]), 
-.checkout .complete-purchase-button:not(.disabled):not(:disabled):not([disabled]) {
+.checkout .complete-purchase:not(.disabled):not(:disabled), 
+.checkout .complete-purchase-button:not(.disabled):not(:disabled) {
     background: #de232b !important;
     color: #fff !important;
 }
 
 .sf .button1:hover,
 .sf .primary:hover,
-.checkout .complete-purchase:not(.disabled):not(:disabled):not([disabled]):hover, 
-.checkout .complete-purchase-button:not(.disabled):not(:disabled):not([disabled]):hover {
+.checkout .complete-purchase:not(.disabled):not(:disabled):hover, 
+.checkout .complete-purchase-button:not(.disabled):not(:disabled):hover {
     background: rgba(222, 35, 43, 0.8) !important;
 }
 
@@ -217,16 +217,16 @@
 /* FEMINA */
 .femina .button1,
 .femina .primary,
-.checkout .complete-purchase:not(.disabled):not(:disabled):not([disabled]), 
-.checkout .complete-purchase-button:not(.disabled):not(:disabled):not([disabled]) {
+.checkout .complete-purchase:not(.disabled):not(:disabled), 
+.checkout .complete-purchase-button:not(.disabled):not(:disabled) {
     background: #d92128 !important;
     color: #fff !important;
 }
 
 .femina .button1:hover,
 .femina .primary:hover,
-.checkout .complete-purchase:not(.disabled):not(:disabled):not([disabled]):hover, 
-.checkout .complete-purchase-button:not(.disabled):not(:disabled):not([disabled]):hover {
+.checkout .complete-purchase:not(.disabled):not(:disabled):hover, 
+.checkout .complete-purchase-button:not(.disabled):not(:disabled):hover {
     background: rgba(217, 33, 40, 0.8) !important;
 }
 
@@ -239,16 +239,16 @@
 /* BILAN */
 .bilan .button1,
 .bilan .primary,
-.checkout .complete-purchase:not(.disabled):not(:disabled):not([disabled]), 
-.checkout .complete-purchase-button:not(.disabled):not(:disabled):not([disabled]) {
+.checkout .complete-purchase:not(.disabled):not(:disabled), 
+.checkout .complete-purchase-button:not(.disabled):not(:disabled) {
     background: #AA0A0C !important;
     color: #fff !important;
 }
 
 .bilan .button1:hover,
 .bilan .primary:hover,
-.checkout .complete-purchase:not(.disabled):not(:disabled):not([disabled]):hover, 
-.checkout .complete-purchase-button:not(.disabled):not(:disabled):not([disabled]):hover {
+.checkout .complete-purchase:not(.disabled):not(:disabled):hover, 
+.checkout .complete-purchase-button:not(.disabled):not(:disabled):hover {
     background: rgba(170, 10, 12, 0.8) !important;
 }
 
