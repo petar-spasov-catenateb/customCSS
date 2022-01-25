@@ -33,7 +33,17 @@
 .checkout .darkmode .complete-purchase:not(.disabled):not(:disabled) a,
 .checkout .darkmode .complete-purchase-button:not(.disabled):not(:disabled) a,
 .darkmode .btn--large.btn--blue,
-.darkmode .btn--large.btn--blue:not(.disabled):not(:disabled) {
+.darkmode .btn--large.btn--blue:not(.disabled):not(:disabled),
+.darkmode .button1,
+.darkmode .primary,
+.checkout .darkmode .complete-purchase:not(.disabled):not(:disabled),
+.checkout .darkmode .complete-purchase-button:not(.disabled):not(:disabled),
+.checkout .darkmode .complete-purchase:not(.disabled):not(:disabled) a,
+.checkout .darkmode .complete-purchase-button:not(.disabled):not(:disabled) a,
+.darkmode .btn--large.btn--blue:not(.disabled):not(:disabled),
+.darkmode .complete-purchase:not(.disabled):not(:disabled),
+.darkmode .complete-purchase-button:not(.disabled):not(:disabled),
+.darkmode .shared-subscription-modal .add-button {
     background: #C32225 !important;
   	color:#fff !important;
 }
@@ -45,7 +55,17 @@
 .checkout .darkmode .complete-purchase:not(.disabled):not(:disabled) a:hover,
 .checkout .darkmode .complete-purchase-button:not(.disabled):not(:disabled) a:hover,
 .darkmode .btn--large.btn--blue:hover,
-.darkmode .btn--large.btn--blue:not(.disabled):not(:disabled):hover {
+.darkmode .btn--large.btn--blue:not(.disabled):not(:disabled):hover,
+.darkmode .button1:hover,
+.darkmode .primary:hover,
+.checkout .darkmode .complete-purchase:not(.disabled):not(:disabled):hover,
+.checkout .darkmode .complete-purchase-button:not(.disabled):not(:disabled):hover,
+.checkout .darkmode .complete-purchase:not(.disabled):not(:disabled) a:hover,
+.checkout .darkmode .complete-purchase-button:not(.disabled):not(:disabled) a:hover,
+.darkmode .btn--large.btn--blue:not(.disabled):not(:disabled):hover,
+.darkmode .complete-purchase:not(.disabled):not(:disabled):hover,
+.darkmode .complete-purchase-button:not(.disabled):not(:disabled):hover,
+.darkmode .shared-subscription-modal .add-button:hover {
     background: rgba(195, 34, 37, 0.8) !important;
 }
 
