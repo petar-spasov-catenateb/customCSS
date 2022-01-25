@@ -36,7 +36,10 @@
 .darkmode .btn--large.btn--blue:not(.disabled):not(:disabled),
 .darkmode .complete-purchase:not(.disabled):not(:disabled),
 .darkmode .complete-purchase-button:not(.disabled):not(:disabled),
-.darkmode .shared-subscription-modal .add-button {
+.darkmode .shared-subscription-modal .add-button,
+.darkmode .bestseller .offer .primary, 
+.darkmode .bestseller-bottom .offer .primary, 
+.darkmode .offers-holder.all-yellow .offer .primary {
     background: #C32225 !important;
   	color:#fff !important;
 }
@@ -51,7 +54,10 @@
 .darkmode .btn--large.btn--blue:not(.disabled):not(:disabled):hover,
 .darkmode .complete-purchase:not(.disabled):not(:disabled):hover,
 .darkmode .complete-purchase-button:not(.disabled):not(:disabled):hover,
-.darkmode .shared-subscription-modal .add-button:hover {
+.darkmode .shared-subscription-modal .add-button:hover,
+.darkmode .bestseller .offer .primary:hover, 
+.darkmode .bestseller-bottom .offer .primary:hover, 
+.darkmode .offers-holder.all-yellow .offer .primary:hover {
     background: rgba(195, 34, 37, 0.8) !important;
 }
 
