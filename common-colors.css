@@ -91,7 +91,8 @@ my-account-licensing *,
 .modal h3,
 .modal .close i,
 .vanilla-table tr>th,
-.voucher-name {
+.voucher-name,
+.view-giftParams h1 {
     color: #121212 !important;
 }
 
@@ -173,10 +174,10 @@ my-account-licensing *,
 .bilan .button2:not(div),
 .bilan .button3:not(div),
 .btn--large.btn--gray,
-a.button.gray:not(.disabled):not(:disabled):not([disabled]), 
-a.button.gray:not(.disabled):not(:disabled):not([disabled]):visited, 
-button.button.gray:not(.disabled):not(:disabled):not([disabled]), 
-button.button.gray:visited:not(.disabled):not(:disabled):not([disabled]) {
+a.button.gray:not(.disabled):not(:disabled), 
+a.button.gray:not(.disabled):not(:disabled):visited, 
+button.button.gray:not(.disabled):not(:disabled), 
+button.button.gray:visited:not(.disabled):not(:disabled) {
     background: #e4e2db !important;
     color: #121212 !important;
 }
@@ -190,11 +191,11 @@ button.button.gray:visited:not(.disabled):not(:disabled):not([disabled]) {
 .bilan .button2:not(div):hover,
 .bilan .button3:not(div):hover,
 .btn--large.btn--gray:hover,
-a.button.gray:not(.disabled):not(:disabled):not([disabled]):hover, 
-a.button.gray:visited:not(.disabled):not(:disabled):not([disabled]):hover, 
-button.button.gray:not(.disabled):not(:disabled):not([disabled]):hover, 
-button.button.gray:not(.disabled):not(:disabled):not([disabled]):visited:hover,
-a.button:not(.pay):not(.disabled):not(:disabled):not([disabled]):not(.promo-code-apply):hover {
+a.button.gray:not(.disabled):not(:disabled):hover, 
+a.button.gray:visited:not(.disabled):not(:disabled):hover, 
+button.button.gray:not(.disabled):not(:disabled):hover, 
+button.button.gray:not(.disabled):not(:disabled):visited:hover,
+a.button:not(.pay):not(.disabled):not(:disabled):not(.promo-code-apply):hover {
     background: rgba(233, 231, 226, 0.8) !important;
 }
 
