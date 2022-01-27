@@ -321,7 +321,7 @@
 .darkmode .new-card-form .field-wrapper .input,
 .darkmode .pn-list .pn-list-scopes,
 .darkmode .datatrans-card-number, 
-.darkmode .datatrans-cvv, input{
+.darkmode .datatrans-cvv {
 	background-color:#c8c8d1 !important;
   	color: #202346 !important;
 }
