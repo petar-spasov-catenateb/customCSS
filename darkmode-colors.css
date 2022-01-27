@@ -322,7 +322,8 @@
   	color: #202346 !important;
 }
 
-.darkmode .pn-list .pn-list-scopes .pn-list-scope {
+.darkmode .pn-list .pn-list-scopes .pn-list-scope,
+.darkmode .tariff-plan-mobile .tariff-plan-mobile-value {
   	color: #202346 !important;
 }
 
