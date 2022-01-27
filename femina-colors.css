@@ -14,9 +14,11 @@
 .view-giftParams a.button:not([disabled]):not(:disabled),
 .view-giftParams a.button:visited:not(.disabled):not(:disabled),
 .view-giftParams button.button:not(.disabled):not(:disabled),
+.button.big:not(.gray),
 .darkmode .bestseller .offer .primary, 
 .darkmode .bestseller-bottom .offer .primary, 
-.darkmode .offers-holder.all-yellow .offer .primary {
+.darkmode .offers-holder.all-yellow .offer .primary,
+.darkmode .button.big:not(.gray) {
     background: #d92128 !important;
     color: #fff !important;
 }
@@ -36,9 +38,11 @@
 .view-giftParams a.button:not([disabled]):not(:disabled):hover,
 .view-giftParams a.button:visited:not(.disabled):not(:disabled):hover,
 .view-giftParams button.button:not(.disabled):not(:disabled):hover,
+.button.big:not(.gray):hover,
 .darkmode .bestseller .offer .primary:hover, 
 .darkmode .bestseller-bottom .offer .primary:hover, 
-.darkmode .offers-holder.all-yellow .offer .primary:hover {
+.darkmode .offers-holder.all-yellow .offer .primary:hover,
+.darkmode .button.big:not(.gray):hover {
     background: rgba(217, 33, 40, 0.8) !important;
 }
 

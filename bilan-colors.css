@@ -5,7 +5,8 @@
 .btn--large.btn--blue,
 .view-giftParams a.button:not([disabled]):not(:disabled),
 .view-giftParams a.button:visited:not(.disabled):not(:disabled),
-.view-giftParams button.button:not(.disabled):not(:disabled) {
+.view-giftParams button.button:not(.disabled):not(:disabled),
+.button.big:not(.gray) {
     background: #AA0A0C !important;
     color: #fff !important;
 }
@@ -16,7 +17,8 @@
 .btn--large.btn--blue:hover,
 .view-giftParams a.button:not([disabled]):not(:disabled):hover,
 .view-giftParams a.button:visited:not(.disabled):not(:disabled):hover,
-.view-giftParams button.button:not(.disabled):not(:disabled):hover {
+.view-giftParams button.button:not(.disabled):not(:disabled):hover,
+.button.big:not(.gray):hover {
     background: rgba(170, 10, 12, 0.8) !important;
 }
 
@@ -39,7 +41,8 @@
 .darkmode .shared-subscription-modal .add-button,
 .darkmode .bestseller .offer .primary, 
 .darkmode .bestseller-bottom .offer .primary, 
-.darkmode .offers-holder.all-yellow .offer .primary {
+.darkmode .offers-holder.all-yellow .offer .primary,
+.darkmode .button.big:not(.gray) {
     background: #C32225 !important;
   	color:#fff !important;
 }
@@ -57,7 +60,8 @@
 .darkmode .shared-subscription-modal .add-button:hover,
 .darkmode .bestseller .offer .primary:hover, 
 .darkmode .bestseller-bottom .offer .primary:hover, 
-.darkmode .offers-holder.all-yellow .offer .primary:hover {
+.darkmode .offers-holder.all-yellow .offer .primary:hover,
+.darkmode .button.big:not(.gray):hover {
     background: rgba(195, 34, 37, 0.8) !important;
 }
 
