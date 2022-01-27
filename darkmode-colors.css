@@ -65,7 +65,8 @@
 .darkmode .myaccount-custom-modal-container,
 .darkmode .update-payment-method .vanilla-table.cards-table .even,
 .darkmode#piano-gift,
-.darkmode#piano-gift .gift-footer{ 
+.darkmode#piano-gift .gift-footer,
+.darkmode#piano-redemption {
     background: #121212 !important;
 }
 
@@ -250,7 +251,8 @@
 .darkmode .btn--large.btn--blue:not(.disabled):not(:disabled),
 .darkmode .complete-purchase:not(.disabled):not(:disabled),
 .darkmode .complete-purchase-button:not(.disabled):not(:disabled),
-.darkmode .shared-subscription-modal .add-button{
+.darkmode .shared-subscription-modal .add-button,
+.darkmode .button.big {
     background: #ffe462 !important;
     color: #202346 !important;
 }
@@ -262,7 +264,9 @@
 .checkout .darkmode .complete-purchase:not(.disabled):not(:disabled) a:hover,
 .checkout .darkmode .complete-purchase-button:not(.disabled):not(:disabled) a:hover,
 .darkmode .btn--large.btn--blue:not(.disabled):not(:disabled):hover,
-.darkmode .shared-subscription-modal .add-button:hover {
+.darkmode .shared-subscription-modal .add-button:hover,
+.darkmode .button.big:hover,
+.darkmode .button.big:not(.gray):hover{
     background: #FFF2B7 !important;
 }
 
