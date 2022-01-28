@@ -327,7 +327,8 @@
 }
 
 .darkmode .pn-list .pn-list-scopes .pn-list-scope,
-.darkmode .tariff-plan-mobile .tariff-plan-mobile-value {
+.darkmode .tariff-plan-mobile .tariff-plan-mobile-value,
+.darkmode .payment-options .button.pay {
   	color: #202346 !important;
 }
 
