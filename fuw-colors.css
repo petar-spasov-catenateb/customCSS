@@ -22,10 +22,6 @@
     background: rgba(4, 55, 133, 0.8) !important;
 }
 
-.fuw .bestseller .bestseller-text div {
-    color: #043785 !important;
-}
-
 /* DARKMODE */
 
 .fuw.darkmode .button1,
@@ -64,11 +60,6 @@
 .darkmode .button.big:not(.gray):hover {
     background: rgba(7, 89, 213, 0.8) !important;
 }
-
-.fuw.darkmode .bestseller .bestseller-text div {
-    color: #0759D5 !important;
-}
-
 
 .darkmode .button2:not(div), 
 .darkmode .button3:not(div), 

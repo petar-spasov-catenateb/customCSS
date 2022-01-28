@@ -22,10 +22,6 @@
     background: rgba(170, 10, 12, 0.8) !important;
 }
 
-.bilan .bestseller .bestseller-text div {
-    color: #AA0A0C !important;
-}
-
 /* DARKMODE */
 
 .bilan.darkmode .button1,
@@ -63,10 +59,6 @@
 .darkmode .offers-holder.all-yellow .offer .primary:hover,
 .darkmode .button.big:not(.gray):hover {
     background: rgba(195, 34, 37, 0.8) !important;
-}
-
-.bilan.darkmode .bestseller .bestseller-text div {
-    color: #C32225 !important;
 }
 
 .darkmode .button2:not(div), 

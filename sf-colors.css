@@ -46,10 +46,6 @@
     background: rgba(222, 35, 43, 0.8) !important;
 }
 
-.sf .bestseller .bestseller-text div {
-    color: #de232b !important;
-}
-
 /* DARKMODE */
 
 .darkmode .button2:not(div), 
